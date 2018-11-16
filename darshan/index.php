@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Bootstrap Example</title>
+        <title>PropKorner</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -38,8 +38,32 @@
             .header {
                 padding-top: 120px;
             }
-            
-            
+
+            .zoom {
+                background-color: green;
+                transition: transform .2s;
+
+                margin: 0 auto;
+            }
+
+            .zoom:hover {
+                -ms-transform: scale(1.5);
+                -webkit-transform: scale(1.5); 
+                transform: scale(1.5); 
+            }
+
+            .row-centered {
+                text-align:center;
+            }
+
+            .col-centered {
+                display:inline-block;
+                float:none;
+                text-align:left;
+                text-align: center;
+                background-color: #ccc;
+            }
+
         </style>
         <div class="nav" style="background-color: black; opacity: 0.8;">
             <center><h3>Header</h3></center>
@@ -52,7 +76,7 @@
                         <a href="#">For Rent</a>
                         <br>
                         <button class="btn">Search By</button>
-                        <input class="search" type="texbox" placeholder="Locality, Pincode, Name etc." size="60">
+                        <input class="search" type="texbox" placeholder="Locality, Pincode, Name etc." size="50%">
                     </p>
                 </center>
             </div>
@@ -73,20 +97,27 @@
 
         <div style="padding-top:20px;">
             <center>
-                <h4 style="padding-top:50px;">OUR LISTINGS</h4>
+                <h4 style="padding-top:50px; font-size: 27px">OUR LISTINGS</h4>
             </center>
         </div>
-        <div class="row" style="margin-top: 40px;text-align: center">
-            <div class="col-md-1" style="background-color:white;height: 350px;margin-right: 5px"></div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/apartments.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+        <div class="row row-centered" style="margin-top: 40px;text-align: center">
 
+            <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/apartments.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Apartments</p></div>
             </div>
-            <div class="col-md-2 shadow" style="padding-left: 0px;height: 350px;background-image:url(images/villa.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;position: relative">
-                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(76, 175, 80, 0.8);width: 100%;"><p style="font-weight: bold; font-size: 17px;">Apartments</p></div>
+            <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/villa.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;position: relative">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Villas</p></div>
             </div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/plot.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/officespaces.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/more.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/plot.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Plots</p></div>
+            </div>
+            <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/officespaces.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Office  Spaces</p></div>
+            </div>
+            <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/more.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;height: 100%;background-color: black;background: rgba(0, 0, 0, 0.6);width: 100%;"><p style="font-size: 27px;color: white;margin-top: 60%">More</p></div>
+            </div>
+
         </div>
         <div class="footer" style="margin-top:100px; padding-bottom: 100px; background-color: black; opacity: 0.8;">
             <center><h1 style="padding-top: 30px">Footer</h1></center>
