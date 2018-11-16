@@ -103,19 +103,19 @@
         <div class="row row-centered" style="margin-top: 40px;text-align: center">
 
             <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/apartments.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
-                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Apartments</p></div>
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Apartments</p></div>
             </div>
             <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/villa.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;position: relative">
-                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Villas</p></div>
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Villas</p></div>
             </div>
             <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/plot.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
-                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Plots</p></div>
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Plots</p></div>
             </div>
             <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/officespaces.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
-                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.8);width: 100%;"><p style="font-size: 17px;color: white">Office  Spaces</p></div>
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Office  Spaces</p></div>
             </div>
             <div class="col-md-2 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/more.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
-                <div style="position: absolute;height: 100%;background-color: black;background: rgba(0, 0, 0, 0.6);width: 100%;"><p style="font-size: 27px;color: white;margin-top: 60%">More</p></div>
+                <div style="position: absolute;height: 100%;background-color: black;background: rgba(0, 0, 0, 0.6);width: 100%;height: 100%;"><p style="font-size: 27px;color: white;margin-top: 60%">More<hr width="15%"></p></div>
             </div>
 
         </div>
