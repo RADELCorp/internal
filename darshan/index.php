@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Bootstrap Example</title>
+        <title>PropKorner</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -38,8 +38,56 @@
             .header {
                 padding-top: 120px;
             }
-            
-            
+
+            .zoom {
+                background-color: green;
+                transition: transform .2s;
+
+                margin: 0 auto;
+            }
+
+            .zoom:hover {
+                -ms-transform: scale(1.3);
+                -webkit-transform: scale(1.3); 
+                transform: scale(1.3); 
+                z-index: 2;
+            }
+
+            .row-centered {
+                text-align:center;
+            }
+
+            .col-centered {
+                display:inline-block;
+                float:none;
+                text-align:left;
+                text-align: center;
+                background-color: #ccc;
+            }
+            .col-lg-6 {
+                height: 250px;
+            }
+            .col-lg-3 {
+                height: 250px;
+            }
+            .col-md-6 {
+                height: 250px;
+            }
+            .col-md-3 {
+                height: 250px;
+            }
+/*            .col-sm-3 {
+                height: 150px;
+            }
+            .col-sm-6 {
+                height: 150px;
+            }
+            .col-xs-3 {
+                height: 100px;
+            }
+            .col-xs-6 {
+                height: 100px;
+            }*/
         </style>
         <div class="nav" style="background-color: black; opacity: 0.8;">
             <center><h3>Header</h3></center>
@@ -52,41 +100,48 @@
                         <a href="#">For Rent</a>
                         <br>
                         <button class="btn">Search By</button>
-                        <input class="search" type="texbox" placeholder="Locality, Pincode, Name etc." size="60">
+                        <input class="search" type="texbox" placeholder="Locality, Pincode, Name etc." size="50%">
                     </p>
                 </center>
             </div>
         </div>
 
         <div class="row" style="margin-top: 20px">
-            <div class="col-md-3 shadow" style="height: 350px;background-image:url(images/1.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-3 shadow" style="height: 350px;background-image:url(images/2.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-3 shadow" style="height: 350px;background-image:url(images/3.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-3 shadow" style="height: 350px;background-image:url(images/4.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow" style="background-image:url(images/1.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow" style="background-image:url(images/2.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow" style="background-image:url(images/3.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow" style="background-image:url(images/4.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
         </div>
 
         <div class="row" style="margin-top: 5px">
-            <div class="col-md-6 shadow" style="height: 350px;background-image:url(images/5.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-3 shadow" style="height: 350px;background-image:url(images/6.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-3 shadow" style="height: 350px;background-image:url(images/2.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 shadow" style="background-image:url(images/5.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow" style="background-image:url(images/6.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow" style="background-image:url(images/2.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
         </div>
 
         <div style="padding-top:20px;">
             <center>
-                <h4 style="padding-top:50px;">OUR LISTINGS</h4>
+                <h4 style="padding-top:50px; font-size: 27px">OUR LISTINGS</h4>
             </center>
         </div>
-        <div class="row" style="margin-top: 40px;text-align: center">
-            <div class="col-md-1" style="background-color:white;height: 350px;margin-right: 5px"></div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/apartments.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+        <div class="row row-centered" style="margin-top: 40px;text-align: center">
 
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/apartments.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Apartments</p></div>
             </div>
-            <div class="col-md-2 shadow" style="padding-left: 0px;height: 350px;background-image:url(images/villa.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;position: relative">
-                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(76, 175, 80, 0.8);width: 100%;"><p style="font-weight: bold; font-size: 17px;">Apartments</p></div>
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/villa.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;position: relative">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Villas</p></div>
             </div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/plot.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/officespaces.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
-            <div class="col-md-2 shadow" style="height: 350px;background-image:url(images/more.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"></div>
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/plot.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Plots</p></div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/officespaces.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;bottom: 0;background-color: black;background: rgba(0, 0, 0, 0.7);width: 100%;height: 15%;"><p style="font-size: 17px;color: white;margin-top: 4%;">Office  Spaces</p></div>
+            </div>
+            <div class="col-md-2 col-sm-8 col-xs-6 zoom shadow col-centered" style="padding-left: 0px;height: 350px;background-image:url(images/more.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;">
+                <div style="position: absolute;height: 100%;background-color: black;background: rgba(0, 0, 0, 0.6);width: 100%;height: 100%;"><p style="font-size: 27px;color: white;margin-top: 50%">More<hr width="15%"></p></div>
+            </div>
+
         </div>
         <div class="footer" style="margin-top:100px; padding-bottom: 100px; background-color: black; opacity: 0.8;">
             <center><h1 style="padding-top: 30px">Footer</h1></center>
