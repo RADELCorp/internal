@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
     </head>
@@ -13,7 +14,10 @@
         <style>
             body {
                 font-family: 'Saira Extra Condensed', sans-serif;
+                background-color: #ECEFF;
             }
+            
+/*            SHADOW_FOR_TILES*/
             .shadow {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
@@ -38,7 +42,8 @@
             .header {
                 padding-top: 120px;
             }
-
+            
+/*            ANIMATION_FOR_OUR_LISTING*/
             .zoom {
                 background-color: green;
                 transition: transform .2s;
@@ -53,6 +58,7 @@
                 z-index: 2;
             }
 
+/*            GRID_CENTERED*/
             .row-centered {
                 text-align:center;
             }
@@ -64,6 +70,8 @@
                 text-align: center;
                 background-color: #ccc;
             }
+            
+/*            HEIGHT_DEFINED_FOR_GRID*/
             .col-lg-6 {
                 height: 250px;
             }
@@ -76,33 +84,68 @@
             .col-md-3 {
                 height: 250px;
             }
-/*            .col-sm-3 {
-                height: 150px;
+            /*            .col-sm-3 {
+                            height: 150px;
+                        }
+                        .col-sm-6 {
+                            height: 150px;
+                        }
+                        .col-xs-3 {
+                            height: 100px;
+                        }
+                        .col-xs-6 {
+                            height: 100px;
+                        }*/
+            .footer {
+                color: white
             }
-            .col-sm-6 {
-                height: 150px;
+            
+/*            PLACEHOLDER_COLOR_CHANGE*/
+            ::-webkit-input-placeholder { 
+                color: #fff;
+                text-transform: uppercase;
             }
-            .col-xs-3 {
-                height: 100px;
+            
+/*            SEARCH_BUTTON_STYLING*/
+            .btn {
+                background-color: black;
             }
-            .col-xs-6 {
-                height: 100px;
-            }*/
+            button {
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+            }
+
+            button:hover {
+                background-color: #4CAF50; /* Green */
+                color: white;
+            }
         </style>
-        <div class="nav" style="background-color: black; opacity: 0.8;">
-            <center><h3>Header</h3></center>
+        <div class="row">
+            <div class="col-lg-12 shadow" style="background-color:black;height: 70px;"></div>
         </div>
         <div class="row shadow">
-            <div class="col-md-12" style="background-color:#EEEEEE;height: 350px;">
-                <center>
-                    <p class="header">
-                        <a href="#">For Sale </a>/
-                        <a href="#">For Rent</a>
-                        <br>
-                        <button class="btn">Search By</button>
-                        <input class="search" type="texbox" placeholder="Locality, Pincode, Name etc." size="50%">
-                    </p>
-                </center>
+            <div class="col-md-12" style="background-color:white;height: 350px;padding-left: 0px;padding-right: 0px;">
+
+                <div class="col-md-6" style="background-color:#BDBDBD;height: 100%;border: 1px solid black;padding-left: 0px;">
+                    <center>
+                        <p class="header" style="color:black;">
+                            <a href="#" style="font-size:18px;"><b>For Sale </b></a>/
+                            <a href="#" style="font-size:18px;"><b>For Rent</b></a>
+                            <br>
+                            <button class="btn" style="border-radius: 50px;">Search</button>
+                            <input class="search" type="texbox" style="border-radius: 50px;background: transparent; border: 3px solid #fff;font-size: 14px;" placeholder="Locality, Pincode, Name etc." size="50%">
+                            <br>
+                            <span id="typed" style="white-space:pre;font-size: 20px;color: white" class="typed">
+                            </span>
+                        </p>
+                    </center>
+                </div>
+
+                <div class="col-md-6" style="background-color:#EEEEEE;height: 100%;border: 1px solid black;">
+                    <center>
+
+                    </center>
+                </div>
             </div>
         </div>
 
@@ -143,11 +186,49 @@
             </div>
 
         </div>
-        <div class="footer" style="margin-top:100px; padding-bottom: 100px; background-color: black; opacity: 0.8;">
-            <center><h1 style="padding-top: 30px">Footer</h1></center>
-        </div>
+        <div class="footer">
+            <div class="row shadow">
+                <div class="col-md-12 col-sm-12" style="background-color:black;height: 350px;">
+                    <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
+                        <p style="font-size:23px;padding-top: 10%;"><b>EXPLORE</b></p>
+                        <hr style="margin-top:1%" width="15%;" align="left">
+                        <p style="font-size:16px;padding-top: 1%">HOME</p>
+                        <p style="font-size:16px;padding-top: 1%">ABOUT US</p>
+                        <p style="font-size:16px;padding-top: 1%">CAREER</p>
+                        <p style="font-size:16px;padding-top: 1%">BLOGS</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
+                        <p style="font-size:23px;padding-top: 10%"><b>VISIT</b></p>
+                        <hr style="margin-top:1%" width="15%;" align="left">
+                        <p style="font-size:16px;padding-top: 1%"> No 2, Ground floor,<br> 29th Main Road,<br> Kuvempu Nagar,<br> BTM Layout 2nd Stage,<br> Bengaluru,<br> Karnataka 560076</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
+                        <p style="font-size:23px;padding-top: 10%"><b>CONTACT US</b></p>
+                        <hr style="margin-top:1%" width="15%;" align="left">
+                        <p style="font-size:16px;padding-top: 1%">+91-8945687598</p>
+                        <p style="font-size:16px;padding-top: 1%">+91-8945687598</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
+                        <p style="font-size:23px;padding-top: 10%"><b>FOLLOW</b></p>
+                        <hr style="margin-top:1%" width="15%;" align="left">
+                        <p style="font-size:16px;padding-top: 1%"><a href="#">INSTAGRAM </a></p>
+                        <p style="font-size:16px;padding-top: 1%"><a href="#">TWITTER </a></p>
+                        <p style="font-size:16px;padding-top: 1%"><a href="#">GOOGLE+ </a></p>
+                        <p style="font-size:16px;padding-top: 1%"><a href="#">FACEBOOK </a></p>
+                    </div>
+                    <hr style="margin-top:1%" width="95%;">
+                    <div class="col-md-6 col-sm-6 col-xs-6" style="height: 30%;padding-left: 8%;">
+                        <p style="font-size:21px;padding-top: 2%;"><b>2018. All Rights Reserved</b></p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6" style="height: 30%;padding-right: 8%;">
+                        <p style="font-size:21px;padding-top: 2%;text-align: right"><b>RADEL CORP.</b></p>
+                    </div>
+                </div>
+            </div>
 
 
 
+
+            <script  src="script/script.js"></script>
     </body>
 </html>
