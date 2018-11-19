@@ -8,16 +8,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body>
         <style>
             body {
-                font-family: 'Saira Extra Condensed', sans-serif;
+                font-family: 'Raleway', sans-serif;
                 background-color: #ECEFF;
             }
-            
-/*            SHADOW_FOR_TILES*/
+            a { color:#000000;
+            }
+            /*            SHADOW_FOR_TILES*/
             .shadow {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
@@ -40,14 +41,13 @@
             }
 
             .header {
-                padding-top: 120px;
+                padding-top: 40px;
             }
-            
-/*            ANIMATION_FOR_OUR_LISTING*/
+
+            /*            ANIMATION_FOR_OUR_LISTING*/
             .zoom {
                 background-color: green;
                 transition: transform .2s;
-
                 margin: 0 auto;
             }
 
@@ -56,9 +56,10 @@
                 -webkit-transform: scale(1.3); 
                 transform: scale(1.3); 
                 z-index: 2;
+                cursor: pointer;
             }
 
-/*            GRID_CENTERED*/
+            /*            GRID_CENTERED*/
             .row-centered {
                 text-align:center;
             }
@@ -70,8 +71,8 @@
                 text-align: center;
                 background-color: #ccc;
             }
-            
-/*            HEIGHT_DEFINED_FOR_GRID*/
+
+            /*            HEIGHT_DEFINED_FOR_GRID*/
             .col-lg-6 {
                 height: 250px;
             }
@@ -99,16 +100,16 @@
             .footer {
                 color: white
             }
-            
-/*            PLACEHOLDER_COLOR_CHANGE*/
+
+            /*            PLACEHOLDER_COLOR_CHANGE*/
             ::-webkit-input-placeholder { 
                 color: #fff;
                 text-transform: uppercase;
             }
-            
-/*            SEARCH_BUTTON_STYLING*/
+
+            /*            SEARCH_BUTTON_STYLING*/
             .btn {
-                background-color: black;
+                background-color: #4CAF50;
             }
             button {
                 -webkit-transition-duration: 0.4s; /* Safari */
@@ -116,7 +117,7 @@
             }
 
             button:hover {
-                background-color: #4CAF50; /* Green */
+                background-color: #2E7D32; /* Green */
                 color: white;
             }
         </style>
@@ -126,16 +127,16 @@
             </div>
         </div>
         <div class="row shadow">
-            <div class="col-md-12" style="background-color:white;height: 350px;padding-left: 0px;padding-right: 0px;">
+            <div class="col-md-12" style="background: rgba(0, 0, 0, 0.5);height: 175px;padding-left: 0px;padding-right: 0px;">
 
-                <div class="col-md-6" style="background-color:#BDBDBD;height: 100%;border: 0.5px solid black;padding-left: 0px;">
+                <div class="col-md-5" style="height: 100%;">
                     <center>
                         <p class="header" style="color:black;">
                             <a href="#" style="font-size:18px;"><b>For Sale </b></a>/
                             <a href="#" style="font-size:18px;"><b>For Rent</b></a>
                             <br>
-                            <button class="btn" style="border-radius: 50px;">Search</button>
-                            <input class="search" type="texbox" style="border-radius: 50px;background: transparent; border: 3px solid #fff;font-size: 14px;" placeholder="Locality, Pincode, Name etc." size="50%">
+                            <input class="search" type="texbox" style="background: transparent; border: 1px solid #fff;font-size: 14px;" placeholder="Locality, Pincode, Name etc." size="42%">
+                            <button class="btn">Search</button>
                             <br>
                             <span id="typed" style="white-space:pre;font-size: 20px;color: white" class="typed">
                             </span>
@@ -143,9 +144,9 @@
                     </center>
                 </div>
 
-                <div class="col-md-6" style="background-color:#EEEEEE;height: 100%;border: 0.5px solid black;">
+                <div class="col-md-7" style="height: 100%;">
                     <center>
-
+                        dfsdf
                     </center>
                 </div>
             </div>
