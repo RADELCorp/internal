@@ -96,7 +96,7 @@
                 <h3 style="font-weight:bold"> Our Location </h3>
                 </br>
             </div>
-            <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.77134221551!2d77.5905968!3d12.92745305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x77fa77df36f6afa7!2sRADEL+CORP!5e0!3m2!1sen!2sin!4v1542622320218" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.77134221551!2d77.5905968!3d12.92745305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x77fa77df36f6afa7!2sRADEL+CORP!5e0!3m2!1sen!2sin!4v1542622320218" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
     </br> </br>
