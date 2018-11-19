@@ -121,12 +121,14 @@
             }
         </style>
         <div class="row">
-            <div class="col-lg-12 shadow" style="background-color:black;height: 70px;"></div>
+            <div class="col-lg-12 shadow" style="background-color:black;height: 70px;">
+                <center><h2>PropKorner Header</h2></center>
+            </div>
         </div>
         <div class="row shadow">
             <div class="col-md-12" style="background-color:white;height: 350px;padding-left: 0px;padding-right: 0px;">
 
-                <div class="col-md-6" style="background-color:#BDBDBD;height: 100%;border: 1px solid black;padding-left: 0px;">
+                <div class="col-md-6" style="background-color:#BDBDBD;height: 100%;border: 0.5px solid black;padding-left: 0px;">
                     <center>
                         <p class="header" style="color:black;">
                             <a href="#" style="font-size:18px;"><b>For Sale </b></a>/
@@ -141,7 +143,7 @@
                     </center>
                 </div>
 
-                <div class="col-md-6" style="background-color:#EEEEEE;height: 100%;border: 1px solid black;">
+                <div class="col-md-6" style="background-color:#EEEEEE;height: 100%;border: 0.5px solid black;">
                     <center>
 
                     </center>
