@@ -14,9 +14,11 @@
         <style>
             body {
                 font-family: 'Raleway', sans-serif;
-                background-color: #ECEFF;
+                background-color: whitesmoke;
             }
-            a { color:#000000;
+            .social { color:#ffffff;
+            }
+            a { color:#E0E0E0   ;
             }
             /*            SHADOW_FOR_TILES*/
             .shadow {
@@ -127,7 +129,7 @@
             </div>
         </div>
         <div class="row shadow">
-            <div class="col-md-12" style="background: rgba(0, 0, 0, 0.5);height: 175px;padding-left: 0px;padding-right: 0px;">
+            <div class="col-md-12" style="background: rgba(0, 0, 0, 0.8);height: 175px;padding-left: 0px;padding-right: 0px;">
 
                 <div class="col-md-5" style="height: 100%;">
                     <center>
@@ -193,38 +195,38 @@
             <div class="row shadow">
                 <div class="col-md-12 col-sm-12" style="background-color:black;height: 350px;">
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
-                        <p style="font-size:23px;padding-top: 10%;"><b>EXPLORE</b></p>
+                        <p style="font-size:18px;padding-top: 10%;"><b>EXPLORE</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
-                        <p style="font-size:16px;padding-top: 1%">HOME</p>
-                        <p style="font-size:16px;padding-top: 1%">ABOUT US</p>
-                        <p style="font-size:16px;padding-top: 1%">CAREER</p>
-                        <p style="font-size:16px;padding-top: 1%">BLOGS</p>
+                        <p style="font-size:13px;padding-top: 1%">HOME</p>
+                        <p style="font-size:13px;padding-top: 1%">ABOUT US</p>
+                        <p style="font-size:13px;padding-top: 1%">CAREER</p>
+                        <p style="font-size:13px;padding-top: 1%">BLOGS</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
-                        <p style="font-size:23px;padding-top: 10%"><b>VISIT</b></p>
+                        <p style="font-size:18px;padding-top: 10%"><b>VISIT</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
-                        <p style="font-size:16px;padding-top: 1%"> No 2, Ground floor,<br> 29th Main Road,<br> Kuvempu Nagar,<br> BTM Layout 2nd Stage,<br> Bengaluru,<br> Karnataka 560076</p>
+                        <p style="font-size:13px;padding-top: 1%"> No 2, Ground floor,<br> 29th Main Road,<br> Kuvempu Nagar,<br> BTM Layout 2nd Stage,<br> Bengaluru,<br> Karnataka 560076</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
-                        <p style="font-size:23px;padding-top: 10%"><b>CONTACT US</b></p>
+                        <p style="font-size:18px;padding-top: 10%"><b>CONTACT US</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
-                        <p style="font-size:16px;padding-top: 1%">+91-8945687598</p>
-                        <p style="font-size:16px;padding-top: 1%">+91-8945687598</p>
+                        <p style="font-size:13px;padding-top: 1%">+91-8945687598</p>
+                        <p style="font-size:13px;padding-top: 1%">+91-8945687598</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
-                        <p style="font-size:23px;padding-top: 10%"><b>FOLLOW</b></p>
+                        <p style="font-size:18px;padding-top: 10%"><b>FOLLOW</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
-                        <p style="font-size:16px;padding-top: 1%"><a href="#">INSTAGRAM </a></p>
-                        <p style="font-size:16px;padding-top: 1%"><a href="#">TWITTER </a></p>
-                        <p style="font-size:16px;padding-top: 1%"><a href="#">GOOGLE+ </a></p>
-                        <p style="font-size:16px;padding-top: 1%"><a href="#">FACEBOOK </a></p>
+                        <p style="font-size:13px;padding-top: 1%"><a href="#" class="social">INSTAGRAM </a></p>
+                        <p style="font-size:13px;padding-top: 1%"><a href="#" class="social">TWITTER </a></p>
+                        <p style="font-size:13px;padding-top: 1%"><a href="#" class="social">GOOGLE+ </a></p>
+                        <p style="font-size:13px;padding-top: 1%"><a href="#" class="social">FACEBOOK </a></p>
                     </div>
                     <hr style="margin-top:1%" width="95%;">
                     <div class="col-md-6 col-sm-6 col-xs-6" style="height: 30%;padding-left: 8%;">
-                        <p style="font-size:21px;padding-top: 2%;"><b>2018. All Rights Reserved</b></p>
+                        <p style="font-size:19px;padding-top: 2%;"><b>2018. All Rights Reserved</b></p>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6" style="height: 30%;padding-right: 8%;">
-                        <p style="font-size:21px;padding-top: 2%;text-align: right"><b>RADEL CORP.</b></p>
+                        <p style="font-size:19px;padding-top: 2%;text-align: right"><b>RADEL CORP.</b></p>
                     </div>
                 </div>
             </div>
