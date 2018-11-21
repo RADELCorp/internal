@@ -200,13 +200,13 @@
                 <div class="overlaytext"><p style="font-size: 17px;color: white;margin-top: 4%;">Apartments</p></div>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="background-image:url(images/villa.jpg);">
-                <div class="overlaytext""><p style="margin-top: 4%;">Villas</p></div>
+                <div class="overlaytext"><p style="margin-top: 4%;">Villas</p></div>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="background-image:url(images/plot.jpg);">
-                <div class="overlaytext""><p style="margin-top: 4%;">Plots</p></div>
+                <div class="overlaytext"><p style="margin-top: 4%;">Plots</p></div>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="background-image:url(images/officespaces.jpg);">
-                <div class="overlaytext""><p style="margin-top: 4%;">Office  Spaces</p></div>
+                <div class="overlaytext"><p style="margin-top: 4%;">Office  Spaces</p></div>
             </div>
             <div class="col-md-2 col-sm-8 col-xs-6 zoom shadow col-centered" style="background-image:url(images/more.jpg);">
                 <div class="overlaytext" style="height: 100%;"><p style="font-size: 27px;color: white;margin-top: 50%">More<hr width="15%"></p></div>
@@ -214,7 +214,7 @@
 
         </div>
         <div class="footertext">
-            <div class="row rowAlign shadow">
+            <div class="row rowAlignshadow">
                 <div class="col-md-12 col-sm-12" style="background-color:black;height: 350px;">
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>EXPLORE</b></p>
