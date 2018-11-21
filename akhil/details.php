@@ -33,6 +33,9 @@
             a {
                 color: white;
             }
+            .des{
+                font-family: 'Raleway', sans-serif;
+            }
         </style>
     </head>
 
@@ -40,7 +43,6 @@
         <div class="nav" style="background-color: black; opacity: 0.9;"> 
             <center><h3>PROP KORNER</h3></center>
         </div>
-        <!--        <div class="main" style="margin-left:10%; margin-right: 10%">-->
         <div class="container">
             <div class="row">
                 <div class="col-md=12" style="height: 50px">
@@ -50,6 +52,9 @@
                     </div>
                     <div class="text" style="height: 50px">
                         <h3 style=" font-weight: bold; font-size: 220% "> Viemann Complex </h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4> Save </h4>
                     </div>
                 </div>
                 <div class="col-md-12" style="height: 500px;background-image:url(images/aaa.jpg);background-repeat: no-repeat;background-size: cover;border: 2px solid white;"> </div>
@@ -66,55 +71,30 @@
                  </div>
                 <script src="Owl_files/jquery.min.js" type="text/javascript"> </script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" type="text/javascript"> </script>
-<!--                <script type="text/javascript">
-                    $('.owl-carousel').owlCarousel({
-                     loop:true,
-                     margin:10,
-                     responsiveClass:true,
-                        responsive:{
-                            0:{
-                            items:1,
-                            nav:true
-                            },
-                            600:{
-                                items:3,
-                        nav:false
-                },
-                1000:{
-                    items:5,
-                    nav:true,
-                    loop:false
-                }
-            }
-        })
-                </script>-->
-    <br/> <br/>
-        <div class="col-md-12" style="text-align: left">
-            <div class="col-md-6" style="text-align: left; background-color:#E0E0E0; height:180px; border-right-style: solid;border-right-color:white;">
-                <h3 style="text-align: justify">DESCRIPTION </h3>
-                <h5 style="position: relative; font-weight: inherit; text-align: left">
-                    lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amethyst.
-                    lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amethyst.
-                    lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amethyst.
-                    lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amethyst.
-                    lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amethyst.
-                </h5>
-            </div>
-            <div class="col-md-6" style="text-align: left; background-color:#E0E0E0; height:180px;">
-                <h3 style="text-align: left">PROPERTY INFORMATION </h3>
-                <div class="col-md-3" style="line-height:2">
-                       <p>Variable 1 : " "
-                       Variable 2 : " "
-                       Variable 3 : " "
-                       Variable 4 : " "</p>  
-                </div>
-                <div class="col-md-3" style="text-align = center; line-height:2">
-                       <p>Variable 5 : " "
-                       Variable 6 : " "
-                       Variable 7 : " "
-                       Variable 8 : " "</p>    
-                </div>
-            </div>
+
+             <br/> <br/>
+             <div class="col-md-12 des" style="text-align: left;background-color:#E0E0E0">
+                 <div class="col-md-6" style="text-align: left; height:200px; ">
+                     <h3 style="text-align: justify; font-weight: bold"><u>DESCRIPTION</u> </h3>
+                     <h5 style="position: relative; text-align: justify; line-height: 1.5">
+                         The premium 5, 4 & 3 BHK apartments from Tulip Infratech, Tulip Ace homes have been developed to surpass even the company's other residential projects in terms of excellence. Tulip Infratech, known for delivering high-class services has gone too far in its approach this time and has come up with homes that talk for themselves just like a pole star shines bright among a cluster of million other stars.
+                     </h5>
+                 </div>
+                 <div class="col-md-6" style="text-align: left; font-weight: bold; height:200px;">
+                     <h3 style="text-align: left; font-weight: bold">PROPERTY INFORMATION </h3>
+                     <div class="col-md-6">
+                        <h5 style="line-height: 1.75">Price : 1,50,00,000 INR </h5>  
+                        <h5 style="line-height: 1.75">Status : Available </h5> 
+                        <h5 style="line-height: 1.75">Year of completion : 2018</h5>
+                     </div>
+                     <div class="col-md-6" style="line-height: 2">
+                         <h5 style="line-height: 1.75"> Area : 2,800 sq.ft </h5>
+                         <h5 style="line-height: 1.75"> BHK : 4 </h5>
+                         <h5 style="line-height: 1.75"> Furnishing : Full</h5>
+                     </div>
+                     
+                 </div>
+             </div>
             <div class="col-md-12 location" style="text-align:center">
                 <br/>
                 <h3 style="font-weight:bold"> Our Location </h3>
@@ -134,21 +114,22 @@
                 navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
                     });
             </script>
+            </div>
             <div class="text" style="text-align:center">
-                <h3> Similar properties </h3>
+                <h3><br/> Similar properties </h3>
                 <br/>
             </div>
             <div class="container">
-            <div class="col-md-12">
-                <div class="owl-carousel owl-theme">
-                    <div> <img src="images/aaa.jpg"></div>
-                    <div> <img src="images/bbb.jpg"></div>
-                    <div> <img src="images/aaa.jpg"></div>
-                    <div> <img src="images/bbb.jpg"></div>
-                    <div> <img src="images/aaa.jpg"></div>
-                    <div> <img src="images/bbb.jpg"></div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div> <img src="images/aaa.jpg"></div>
+                        <div> <img src="images/bbb.jpg"></div>
+                        <div> <img src="images/aaa.jpg"></div>
+                        <div> <img src="images/bbb.jpg"></div>
+                        <div> <img src="images/aaa.jpg"></div>
+                        <div> <img src="images/bbb.jpg"></div>
+                    </div>
                 </div>
-            </div>
             </div>
             <script src="Owl_files/jquery.min.js" type="text/javascript"> </script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" type="text/javascript"> </script>
@@ -165,15 +146,17 @@
                         600:{
                             items:3,
                     nav:false
-            },
-            1000:{
-                items:5,
-                nav:true,
-                loop:false
-            }
-        }
-    })
+                            },
+                    1000:{
+                        items:5,
+                        nav:true,
+                        loop:false
+                        }
+                    }
+                })
             </script>
+            </div>
+            </div>
             <div class="footer">
                 <div class="row shadow">
                     <div class="col-md-12 col-sm-12" style="background-color:black;height: 350px;">
@@ -214,6 +197,5 @@
                     </div>
                 </div>           <!-- Footer : Darshan's Code  -->
             </div>  
-        </div>
             </body>
             </html>
