@@ -20,9 +20,9 @@
             }
 
             /*            SHADOW_FOR_TILES*/
-            .shadow {
+/*            .shadow {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
+            }*/
             .rowAlign {
                 margin-top: 20px;
                 margin-left: 20px;
@@ -142,13 +142,26 @@
                 font-size:18px;
                 color: grey
             }
+            .row > .featured {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .row > .zoom {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            
+           .footertext > .row {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .row + .rowAlign {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
         </style>
-        <div class="row rowAlign">
-            <div class="col-lg-12 shadow" style="background-color:black;height: 70px;">
+        <div class="row rowAlign" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <div class="col-lg-12" style="background-color:black;height: 70px;">
                 <center><h2>PropKorner Header</h2></center>
             </div>
         </div>
-        <div class="row rowAlign shadow">
+        <div class="row rowAlign">
             <div class="col-md-12" style="background: rgba(0, 0, 0, 0.8);height: 175px;padding-left: 0px;padding-right: 0px;">
 
                 <div class="col-md-5" style="height: 100%;">
@@ -177,16 +190,16 @@
         </div>
 
         <div class="row rowAlign" style="margin-top: 20px">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow featured" style="background-image:url(images/1.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow featured" style="background-image:url(images/2.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow featured" style="background-image:url(images/3.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow featured" style="background-image:url(images/4.jpg);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/1.jpg);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/2.jpg);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/3.jpg);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/4.jpg);"></div>
         </div>
 
         <div class="row rowAlign" style="margin-top: 8px">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 shadow featured" style="background-image:url(images/5.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow featured" style="background-image:url(images/6.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shadow featured" style="background-image:url(images/2.jpg);"></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 featured" style="background-image:url(images/5.jpg);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/6.jpg);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/2.jpg);"></div>
         </div>
 
         <div style="padding-top:20px;">
@@ -196,25 +209,25 @@
         </div>
         <div class="row rowAlign row-centered" style="margin-top: 40px;text-align: center">
 
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="background-image:url(images/apartments.jpg);">
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/apartments.jpg);">
                 <div class="overlaytext"><p style="font-size: 17px;color: white;margin-top: 4%;">Apartments</p></div>
             </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="background-image:url(images/villa.jpg);">
-                <div class="overlaytext""><p style="margin-top: 4%;">Villas</p></div>
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/villa.jpg);">
+                <div class="overlaytext"><p style="margin-top: 4%;">Villas</p></div>
             </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="background-image:url(images/plot.jpg);">
-                <div class="overlaytext""><p style="margin-top: 4%;">Plots</p></div>
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/plot.jpg);">
+                <div class="overlaytext"><p style="margin-top: 4%;">Plots</p></div>
             </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom shadow col-centered" style="background-image:url(images/officespaces.jpg);">
-                <div class="overlaytext""><p style="margin-top: 4%;">Office  Spaces</p></div>
+            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/officespaces.jpg);">
+                <div class="overlaytext"><p style="margin-top: 4%;">Office  Spaces</p></div>
             </div>
-            <div class="col-md-2 col-sm-8 col-xs-6 zoom shadow col-centered" style="background-image:url(images/more.jpg);">
+            <div class="col-md-2 col-sm-8 col-xs-6 zoom col-centered" style="background-image:url(images/more.jpg);">
                 <div class="overlaytext" style="height: 100%;"><p style="font-size: 27px;color: white;margin-top: 50%">More<hr width="15%"></p></div>
             </div>
 
         </div>
         <div class="footertext">
-            <div class="row rowAlign shadow">
+            <div class="row rowAlign">
                 <div class="col-md-12 col-sm-12" style="background-color:black;height: 350px;">
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>EXPLORE</b></p>
