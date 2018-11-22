@@ -129,7 +129,7 @@
                 <div class="address col-md-4">
                     <br/><br/><b>Reach Us</b
                     <br/>
-                    <p class=".address-p">
+                    <p class="address-p">
                         608, 10th Main Rd, 4th T Block East,<br/> 
                         4th Block, Jayanagar, Bengaluru,<br/> 
                         Karnataka 560011<br/>
