@@ -125,7 +125,7 @@
                 </div>
             </div>
             <br/> <br/>
-            <div class="col-md-12 box" style="text-align: left;background-color:#BDBDBD">
+            <div class="col-md-12 box" style="text-align: left;background-color:#BDBDBD; margin-top: 2%">
                 <div class="vl"></div>
                 <div class="col-md-6" style="text-align: left; height:200px; ">
                     <h3 style="text-align: justify; font-weight: bold"><u>DESCRIPTION</u> </h3>
