@@ -108,13 +108,22 @@
                 border-bottom: 1px solid white;
             }
             .featured {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 background-repeat: no-repeat;
                 background-size: cover;
                 border: 2px solid white;
                 height: 250px;
             }
+            .fea {
+/*                 border: 2px solid white;*/
+                height: 250px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
             .featured:hover {
-                opacity: 0.5;
+                opacity: 0.7;
                 transition-duration: 0.4 s;
                 cursor: pointer;
 
@@ -142,9 +151,9 @@
                 font-size:18px;
                 color: grey
             }
-            .row > .featured {
+/*            .row > .featured {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
+            }*/
             .row > .zoom {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
@@ -152,9 +161,9 @@
            .footertext > .row {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
-            .row + .rowAlign {
+/*            .row + .rowAlign {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
+            }*/
         </style>
         <div class="row rowAlign" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <div class="col-lg-12" style="background-color:black;height: 70px;">
@@ -162,7 +171,7 @@
             </div>
         </div>
         <div class="row rowAlign">
-            <div class="col-md-12" style="background: rgba(0, 0, 0, 0.8);height: 175px;padding-left: 0px;padding-right: 0px;">
+            <div class="col-md-12" style="background: rgba(0, 0, 0, 0.8);height: 175px;padding-left: 0px;padding-right: 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
 
                 <div class="col-md-5" style="height: 100%;">
                     <center>
@@ -190,16 +199,30 @@
         </div>
 
         <div class="row rowAlign" style="margin-top: 20px">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/1.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/2.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/3.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/4.jpg);"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
+                <div class="featured" style="background-image:url(images/1.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea" >
+               <div class="featured" style="background-image:url(images/2.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
+                <div class="featured" style="background-image:url(images/3.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
+                <div class="featured" style="background-image:url(images/4.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
         </div>
 
-        <div class="row rowAlign" style="margin-top: 8px">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 featured" style="background-image:url(images/5.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/6.jpg);"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 featured" style="background-image:url(images/2.jpg);"></div>
+        <div class="row rowAlign" style="margin-top: 0px">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 fea">
+                <div class="featured" style="background-image:url(images/5.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
+                <div class="featured" style="background-image:url(images/6.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
+                <div class="featured" style="background-image:url(images/2.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+            </div>
         </div>
 
         <div style="padding-top:20px;">
