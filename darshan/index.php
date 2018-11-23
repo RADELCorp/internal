@@ -255,11 +255,12 @@
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>EXPLORE</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
-                        <p class="footerSubHeadings">HOME</p>
-                        <p class="footerSubHeadings">ABOUT US</p>
-                        <p class="footerSubHeadings">CAREER</p>
-                        <p class="footerSubHeadings">BLOGS</p>
-                    </div>
+                        <div class="footerSubHeadings">
+                        <p>HOME</p>
+                        <p>ABOUT US</p>
+                        <p>CAREER</p>
+                        <p>BLOGS</p>
+                        </div></div>
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>VISIT</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
@@ -268,16 +269,20 @@
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>CONTACT US</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
-                        <p class="footerSubHeadings">+91-8945687598</p>
-                        <p class="footerSubHeadings">+91-8945687598</p>
+                        <div class="footerSubHeadings">
+                        <p>+91-8945687598</p>
+                        <p>+91-8945687598</p>
+                        </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>FOLLOW</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
-                        <p class="footerSubHeadings"><a href="#" class="social">INSTAGRAM </a></p>
-                        <p class="footerSubHeadings"><a href="#" class="social">TWITTER </a></p>
-                        <p class="footerSubHeadings"><a href="#" class="social">GOOGLE+ </a></p>
-                        <p class="footerSubHeadings"><a href="#" class="social">FACEBOOK </a></p>
+                        <div class="footerSubHeadings">
+                        <p><a href="#" class="social">INSTAGRAM </a></p>
+                        <p><a href="#" class="social">TWITTER </a></p>
+                        <p><a href="#" class="social">GOOGLE+ </a></p>
+                        <p><a href="#" class="social">FACEBOOK </a></p>
+                    </div>
                     </div>
                     <hr style="margin-top:1%" width="95%;">
                     <div class="col-md-6 col-sm-6 col-xs-6" style="height: 30%;padding-left: 8%;">
