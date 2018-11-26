@@ -68,38 +68,38 @@
         </div>
         <div class="container">
             <div class="row" style="text-align: center">
-                <input type="search" style="margin-top: 3%; height: 35px; width: 70%">
+                <input type="search" style="margin-top: 3%; height: 33px; width: 70%">
                 <button class="btn" value="Search" style="background-color: #212121; color: white">Search</button>
-                <h3>Our Projects in Bangalore</h3>
+                <h3><u>Our Projects in Bangalore</u></h3>
             </div>
             <div class="row">
                 <div class="col-md-12" style="margin-top: 4%; text-align: center">
                     <div class="col-md-3 feat" style="margin-right: 3%;background-image: url(images/1.jpg);background-repeat: no-repeat;background-size: cover; height:300px; width: 31%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                     <div class="col-md-3 feat" style="margin-right: 3%;background-image: url(images/2.jpg);background-repeat: no-repeat;background-size: cover; height:300px;width: 31%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                      <div class="col-md-3 feat" style="background-image: url(images/3.jpg);background-repeat: no-repeat;background-size: cover; height:300px; width: 31%">
-                         <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                         <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                     <div class="col-md-3 feat" style="background-image: url(images/4.jpg);background-repeat: no-repeat;background-size: cover;margin-right: 3%; height:300px; width: 31%; margin-top: 3%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                     <div class="col-md-3 feat" style="background-image: url(images/5.jpg);background-repeat: no-repeat;background-size: cover;margin-right: 3%; height:300px; width: 31%; margin-top: 3%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                     <div class="col-md-3 feat" style="background-image: url(images/1.jpg);background-repeat: no-repeat;background-size: cover; height:300px; width: 31%; margin-top: 3%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                     <div class="col-md-3 feat" style="background-image: url(images/2.jpg);background-repeat: no-repeat;background-size: cover;margin-right: 3%; height:300px; width: 31%; margin-top: 3%; margin-bottom: 5%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                     <div class="col-md-3 feat" style="background-image: url(images/3.jpg);background-repeat: no-repeat;background-size: cover;margin-right: 3%; height:300px; width: 31%; margin-top: 3%; margin-bottom: 5%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                     <div class="col-md-3 feat" style="background-image: url(images/4.jpg);background-repeat: no-repeat;background-size: cover; height:300px; width: 31%; margin-top: 3%; margin-bottom: 5%">
-                        <div class="overlaytext"><p style="font-size: 14px;color: black;margin-top: 4%">Lorem ipsum</p></div>
+                        <div class="overlaytext"><p style="font-size: 17px;color: black;margin-top: 4%">Lorem ipsum</p></div>
                     </div>
                 </div> 
             </div>
