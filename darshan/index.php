@@ -20,9 +20,9 @@
             }
 
             /*            SHADOW_FOR_TILES*/
-/*            .shadow {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }*/
+            /*            .shadow {
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        }*/
             .rowAlign {
                 margin-top: 20px;
                 margin-left: 20px;
@@ -86,7 +86,8 @@
 
             /*            PLACEHOLDER_COLOR_CHANGE*/
             ::-webkit-input-placeholder { 
-                color: #fff;
+                text-align: center;
+                color: grey;
                 font-size: 13px;
             }
 
@@ -115,7 +116,7 @@
                 height: 250px;
             }
             .fea {
-/*                 border: 2px solid white;*/
+                /*                 border: 2px solid white;*/
                 height: 250px;
                 padding-left: 5px;
                 padding-right: 5px;
@@ -151,23 +152,82 @@
                 font-size:18px;
                 color: grey
             }
-/*            .row > .featured {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }*/
+            /*            .row > .featured {
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        }*/
             .row > .zoom {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
-            
-           .footertext > .row {
+
+            .footertext > .row {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
-/*            .row + .rowAlign {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }*/
+            /*            .row + .rowAlign {
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        }*/
+
+            /*STYLING THE LOGIN MODAL*/
+            .bg-modal {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.7);
+                position:absolute;
+                top:0;
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+            }
+            .modal-content {
+                width: 350px;
+                height: 400px;
+                background-color: white;
+                position: relative;
+            }
+            .close {
+                position: absolute;
+                top: 0;
+                right: 14px;
+                font-size: 42px;
+                transform: rotate(45deg);
+                cursor: pointer;
+            }
+            i {
+                color: whitesmoke;
+            }
+            i:hover {
+                cursor: pointer;
+                color: green;
+                transition-duration: 0.5s;
+            }
         </style>
         <div class="row rowAlign" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <div class="col-lg-12" style="background-color:black;height: 70px;">
-                <center><h2>PropKorner Header</h2></center>
+<!--                <center><h2>PropKorner Header</h2></center>-->
+                <div style="text-align:right">
+                    <!--<button class="btn" id="loginButton" style="border-radius:50%;height: 45px;">L</button>-->
+                    <i class="glyphicon glyphicon-user" id="loginButton" style="margin-top: 20px;margin-right: 20px;font-size:20px;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="close" style="color:black" >+</div>
+                <div class="modalhead" style="font-size: 24px;color: green;text-align:center;margin-top: 50px;;">Sign In!</div>
+                <hr style="margin-top:1%;background-color: lightcoral;height: 1.5px;border: none;" width="10%;">
+                <form action="">
+                    <center>
+                        <input type="email" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Email id" size="32%"><br>
+                        <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 5px;background: #f7f9fc" placeholder="Password" size="32%"><br>
+                        <div style="margin-bottom:15px;"><input type="checkbox" onclick="showPassword()">Show Password</div>
+                        <button class="btn" style="width:247px;background-color: #81C784;border: 1px solid grey;height: 40px;margin-bottom: 10px;"><a href="" >Sign In</a></button>
+                        <div>
+                            <a href="#" style="color:red;margin-bottom: 8px;">Forgot Password?</a><br>
+                            <a href="#" style="color:green">New User? Register!</a>
+                        </div>
+                    </center>
+                </form>
             </div>
         </div>
         <div class="row rowAlign">
@@ -192,7 +252,7 @@
 
                 <div class="col-md-7" style="height: 100%;">
                     <center>
-                        
+
                     </center>
                 </div>
             </div>
@@ -203,7 +263,7 @@
                 <div class="featured" style="background-image:url(images/1.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea" >
-               <div class="featured" style="background-image:url(images/2.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/2.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
                 <div class="featured" style="background-image:url(images/3.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
@@ -256,10 +316,10 @@
                         <p class="footertitle"><b>EXPLORE</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
                         <div class="footerSubHeadings">
-                        <p>HOME</p>
-                        <p>ABOUT US</p>
-                        <p>CAREER</p>
-                        <p>BLOGS</p>
+                            <p>HOME</p>
+                            <p>ABOUT US</p>
+                            <p>CAREER</p>
+                            <p>BLOGS</p>
                         </div></div>
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>VISIT</b></p>
@@ -270,19 +330,19 @@
                         <p class="footertitle"><b>CONTACT US</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
                         <div class="footerSubHeadings">
-                        <p>+91-8945687598</p>
-                        <p>+91-8945687598</p>
+                            <p>+91-8945687598</p>
+                            <p>+91-8945687598</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3" style="height: 70%;padding-left: 8%">
                         <p class="footertitle"><b>FOLLOW</b></p>
                         <hr style="margin-top:1%" width="15%;" align="left">
                         <div class="footerSubHeadings">
-                        <p><a href="#" class="social">INSTAGRAM </a></p>
-                        <p><a href="#" class="social">TWITTER </a></p>
-                        <p><a href="#" class="social">GOOGLE+ </a></p>
-                        <p><a href="#" class="social">FACEBOOK </a></p>
-                    </div>
+                            <p><a href="#" class="social">INSTAGRAM </a></p>
+                            <p><a href="#" class="social">TWITTER </a></p>
+                            <p><a href="#" class="social">GOOGLE+ </a></p>
+                            <p><a href="#" class="social">FACEBOOK </a></p>
+                        </div>
                     </div>
                     <hr style="margin-top:1%" width="95%;">
                     <div class="col-md-6 col-sm-6 col-xs-6" style="height: 30%;padding-left: 8%;">
@@ -294,6 +354,7 @@
                 </div>
             </div>
             <script>
+//                FOR AUTO TYPING ANIMATION
                 $("#typed").typed({
                     strings: ["Apartments.", "572306.", "JP Nagar 5th phase."],
                     typeSpeed: 130,
@@ -304,10 +365,24 @@
                     cursorChar: "|",
                     contentType: 'html'
                 });
+
+//                FOR LOGIN POP-UP
+                document.getElementById('loginButton').addEventListener('click', function () {
+                    document.querySelector('.bg-modal').style.display = 'flex';
+                });
+
+                document.querySelector('.close').addEventListener('click', function () {
+                    document.querySelector('.bg-modal').style.display = 'none';
+                });
+
+                function showPassword() {
+                    var x = document.getElementById("passkey");
+                    if (x.type === "password") {
+                        x.type = "text";
+                    } else {
+                        x.type = "password";
+                    }
+                }
             </script>
-
-
-
-            <script  src="script/script.js"></script>
     </body>
 </html>
