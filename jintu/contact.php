@@ -12,41 +12,55 @@
 
     </head>
     <body>
+        <div class="col-md-2"style="background-color: white;height: 900px">
 
+        </div>
+        <div class="col-md-10"style="background-color: white;height: 50px"></div>
 
-        <div class="row">
-            <div class="col-md-12" style="background-color: grey;background-image: url( 1.jpg);height: 900px">
-                <div class="col-md-2"style="background-color: white;height: 900px"></div>
-                <div class="col-md-10"style="background-color: red;height: 50px"></div>
-                <div class="col-md-12" style="background-color: grey;height: 850px">
-                    <div class="col-md-4"style="background-image: url( 1.jpg);height: 200px"> 
-                    </div>
-                    <div class="col-md-4"style=";background-image: url( 12.jpg);height: 200px;"> 
-                    </div>
-                    <div class="col-md-4"style=";background-image: url( 123.jpg);height:200px;"> 
-                    </div>
+        <div class="col-md-10">
+            <div style="width: 100%; padding:" >
+                <div class="col-md-4"style="background-image: url( 1.jpg);height: 170px;right:  12;margin-bottom:10 "> 
+                </div>
+                <div class="col-md-4"style="background-image: url( 12.jpg);height: 170px;right: 4;margin-bottom: 10"> 
+                </div>
+                <div class="col-md-4"style="background-image: url( 123.jpg);height:170px;left:  10;margin-bottom: 10"> 
                 </div>
             </div>
-
-            <div class="col-md-12" style="background-color: grey;background-image: url( 12.jpg);height: 900px">
-
-                <div class="col-md-4"style="background-image: url( 12.jpg);height: 200px"> 
+            <div>
+                <div class="col-md-4"style="background-image: url(1.jpg);height: 200px;right: 12;margin-bottom: 10">
                 </div>
-                <div class="col-md-4"style=";background-image: url( 1.jpg);height: 200px;"> 
+                <div class="col-md-4"style="background-image: url(12.jpg);height: 200px;right: 4;margin-bottom: 10">
                 </div>
-                <div class="col-md-4"style=";background-image: url( 12.jpg);height:200px;"> 
+                <div class="col-md-4" style="background-image:url(123.jpg);height: 200px;left: 10;margin-bottom: 10">
+
                 </div>
             </div>
-            <div class="col-md-12" style="background-color: grey;background-image: url( 123.jpg);height: 900px">
-
-                <div class="col-md-4"style="background-image: url( 12.jpg);height: 200px"> 
+            <div>
+                <div class="col-md-4"style="background-image: url(1.jpg);height: 200px;right: 12;margin-bottom: 10">
                 </div>
-                <div class="col-md-4"style=";background-image: url( 123.jpg);height: 200px;"> 
+                <div class="col-md-4"style="background-image: url(12.jpg);height: 200px;right: 4;margin-bottom: 10">
                 </div>
-                <div class="col-md-4"style=";background-image: url( 1.jpg);height:200px;"> 
+                <div class="col-md-4"style="background-image:url(123.jpg);height: 200px;left: 10;margin-bottom: 10">
                 </div>
             </div>
-            
+            <div>
+                <div class="col-md-4"style="background-image: url(1.jpg);height: 200px;right: 12;margin-bottom: 10">
+                </div>
+                <div class="col-md-4"style="background-image: url(12.jpg) ;height: 200px;right:4;margin-bottom: 10">
+                </div>
+                <div class="col-md-4"style="background-image:url(123.jpg);height: 200px;left:10;margin-bottom: 10">
+                </div>
+
+            </div>
+            <div>
+                <div class="col-md-4"style="background-image: url(1.jpg);height: 200px;right: 12;margin-bottom: 10">
+                </div>
+                <div class="col-md-4"style="background-image: url(12.jpg);height: 200px;right: 4;margin-bottom: 10">
+                </div>
+                <div class="col-md-4"style="background-image:url(123.jpg);height: 200px;left: 10;margin-bottom: 10">
+                </div> 
+
+            </div>
         </div>
 
     </body>

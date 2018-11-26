@@ -2,7 +2,7 @@
     <head>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -14,9 +14,9 @@
 
 
         <div class="col-md-12" id="parent" style="font-family: 'Saira Extra Condensed', sans-serif;">
-            <div class="col-md-12"style="height: 300px;background-image: url( justin-schuler-253611-unsplash.jpg);background-size: cover; background-position: center"> 
+            <div class="col-md-12"style="height: 300px;background-image:url(1234.jpg );background-size: cover; background-position: center"> 
             </div>
-            
+
             <div  class="col-md-12" style="background-color: white; height: 300px;padding: 0;margin-top: 10px;">
                 <div class="col-md-4" style="background-color:#dbdbdb;height: 300px;padding-left: 0;">
                     <b style="margin-left: 100px;margin-top: 10px">REACH US</b><p style="margin-left: 50px; margin-top: 20px">608,10th main Rd,4thBlock,Jaynagar,Bengaluru<br/>Karnataka 560011<br/>Email:Porpkorner@radelcorp.in<br/>Mobile Number:8877445566<br/>7733220044</p>
@@ -68,39 +68,39 @@
                     </ul>
                 </div>
 
-            
 
-            <div class="col-md-3"style="height: 200px;">
-                <ul style="list-style-type: none">
-                    <li style="font-weight: bold">VISIT</li>
-                    <li>NO2,Ground floor 29thmain Road<b/><b>Kuvempu Nagar</b><b>BTM Layout 2nd</b><b>stage bangalore<b>Karnataka 560076</b></b></b></li>
-                </ul>
+
+                <div class="col-md-3"style="height: 200px;">
+                    <ul style="list-style-type: none">
+                        <li style="font-weight: bold">VISIT</li>
+                        <li>NO2,Ground floor 29thmain Road<b/><b>Kuvempu Nagar</b><b>BTM Layout 2nd</b><b>stage bangalore<b>Karnataka 560076</b></b></b></li>
+                    </ul>
+                </div>
+                <div class="col-md-3"style="height: 200px;">
+                    <ul style="list-style-type: none">
+                        <li style="font-weight: bold">CONTACT US</li>
+                        <li>8945687598</li>
+                        <li>8945687598</li>
+                    </ul>
+                </div>
+                <div class="col-md-3"style="height: 200px;">
+                    <ul style="list-style-type: none">
+                        <li style="font-weight: bold">FOLLOW</li>
+                        <li>INSTAGRAM</li>
+                        <li>TWITTER</li>
+                        <li>FACEBOOK</li>
+                        <li>GOOGLE</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul style="list-style-type: none">
+
+                        <b> &COPY;2018,ALL Reserved </b>
+                        <b style="margin-left: 1000px">RADEL CORP</b>
+                </div>
             </div>
-            <div class="col-md-3"style="height: 200px;">
-                <ul style="list-style-type: none">
-                    <li style="font-weight: bold">CONTACT US</li>
-                    <li>8945687598</li>
-                    <li>8945687598</li>
-                </ul>
-            </div>
-            <div class="col-md-3"style="height: 200px;">
-                <ul style="list-style-type: none">
-                    <li style="font-weight: bold">FOLLOW</li>
-                    <li>INSTAGRAM</li>
-                    <li>TWITTER</li>
-                    <li>FACEBOOK</li>
-                    <li>GOOGLE</li>
-                </ul>
-            </div>
-                 <div>
-                <ul style="list-style-type: none">
-                    
-                    <b> &COPY;2018,ALL Reserved </b>
-                    <b style="margin-left: 1000px">RADEL CORP</b>
-            </div>
-            </div>
-           
-            
-            </div>
+
+
+        </div>
     </body>
 </html>
