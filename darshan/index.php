@@ -178,6 +178,7 @@
                 justify-content: center;
                 align-items: center;
                 display: none;
+                position: fixed;
             }
             .modal-content {
                 width: 350px;
