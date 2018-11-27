@@ -90,6 +90,10 @@
             #custom-search-input .glyphicon-search{
                 font-size: 23px;
             }
+            .placeholder-control::placeholder { 
+                color: grey;
+                font-size: 13px;
+            }
         </style>
     </head>
     
@@ -103,7 +107,7 @@
                     <div class="col-md-6" style="margin-left: 24%; margin-top: 2%">
                         <div id="custom-search-input">
                             <div class="input-group col-md-12">
-                                <input type="text" class="form-control input-lg" placeholder="Apartments, Place.." />
+                                <input type="text" class="form-control input-lg placeholder-control" placeholder="Apartments, Place.." />
                                 <span class="input-group-btn">
                                     <button class="btn btn-info btn-lg" type="button">
                                         <i class="glyphicon glyphicon-search"></i>
