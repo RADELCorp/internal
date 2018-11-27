@@ -53,7 +53,7 @@
                 background-size: cover;
                 border: 2px solid white;
                 background-color: green;
-                transition: transform .2s;
+                transition: transform .4s;
                 margin: 0 auto;
             }
 
@@ -167,7 +167,7 @@
                         }*/
 
             /*STYLING THE LOGIN MODAL*/
-            .bg-modal {
+            .modalSignin {
                 width: 100%;
                 height: 100%;
                 background-color: rgba(0,0,0,0.7);
@@ -179,10 +179,31 @@
                 align-items: center;
                 display: none;
                 position: fixed;
+                
             }
-            .modal-content {
+            .modalRegister {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0);
+                position:absolute;
+                top:0;
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+                position: fixed;
+                
+            }
+            .modal-content-signin {
                 width: 350px;
                 height: 400px;
+                background-color: white;
+                position: relative;
+            }
+            .modal-content-register {
+                width: 350px;
+                height: 450px;
                 background-color: white;
                 position: relative;
             }
@@ -192,6 +213,23 @@
                 right: 14px;
                 font-size: 42px;
                 transform: rotate(45deg);
+                cursor: pointer;
+            }
+            .closeRegister {
+                position: absolute;
+                top: 18px;
+                right: 18px;
+                font-size: 21px;
+                /*transform: rotate(45deg);*/
+                cursor: pointer;
+            }
+            .backRegister {
+                position: absolute;
+                top: 18px;
+                left: 18px;
+                font-size: 20px;
+/*                background-color:red;*/
+/*                transform: rotate(45deg);*/
                 cursor: pointer;
             }
             i {
@@ -212,25 +250,50 @@
                 </div>
             </div>
         </div>
-        <div class="bg-modal">
-            <div class="modal-content">
+        <div class="modalSignin">
+            <div class="modal-content-signin">
                 <div class="close" style="color:black" >+</div>
-                <div class="modalhead" style="font-size: 24px;color: green;text-align:center;margin-top: 50px;;">Sign In!</div>
+                <div class="modalhead" style="font-size: 19px;color: green;text-align:center;margin-top: 50px;;">Sign In!</div>
                 <hr style="margin-top:1%;background-color: lightcoral;height: 1.5px;border: none;" width="10%;">
                 <form action="">
                     <center>
                         <input type="email" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Email id" size="32%"><br>
                         <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 5px;background: #f7f9fc" placeholder="Password" size="32%"><br>
-                        <div style="margin-bottom:15px;"><input type="checkbox" onclick="showPassword()">Show Password</div>
+                        <div style="margin-bottom:15px;font-size: 13px;"><input type="checkbox" onclick="showPassword()">Show Password</div>
                         <button class="btn" style="width:247px;background-color: #81C784;border: 1px solid grey;height: 40px;margin-bottom: 10px;"><a href="" >Sign In</a></button>
                         <div>
-                            <a href="#" style="color:red;margin-bottom: 8px;">Forgot Password?</a><br>
-                            <a href="#" style="color:green">New User? Register!</a>
+                            <a href="#" style="color:red;margin-bottom: 8px;font-size: 13px;">Forgot Password?</a><br>
+                            <a class="registerNewUser" href="#" style="color:green;font-size: 14px;">New User? Register!</a>
                         </div>
                     </center>
                 </form>
             </div>
         </div>
+        
+        <div class="modalRegister">
+            <div class="modal-content-register">
+                <div class="backRegister glyphicon glyphicon-menu-left" style="color:grey" ></div>
+                    <div class="closeRegister glyphicon glyphicon-remove-circle" style="color:grey" ></div>
+                <div class="modalhead" style="font-size: 19px;color: green;text-align:center;margin-top: 20px;;">Register!</div>
+                <hr style="margin-top:1%;background-color: lightcoral;height: 1.5px;border: none;" width="10%;">
+                <form action="">
+                    <center>
+                        <input type="text" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="First Name" size="32%">
+                        <input type="text" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Last Name" size="32%">
+                        <input type="email" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Email" size="32%"><br>
+                        <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Password" size="32%">
+                        <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 15px;height: 40px;margin-bottom: 20px;background: #f7f9fc" placeholder="Confirm Password" size="32%"><br>
+                        
+                        <button class="btn" style="width:247px;background-color: #81C784;border: 1px solid grey;height: 40px;margin-bottom: 8px;"><a href="" >Register</a></button>
+                        <div>
+                            <a class="alreadyHaveAccount" href="#" style="color:red;margin-bottom: 15px;font-size: 13px;color: rosybrown">Already have an account? Sign in!</a><br>
+                            
+                        </div>
+                    </center>
+                </form>
+            </div>
+        </div>
+        
         <div class="row rowAlign">
             <div class="col-md-12" style="background: rgba(0, 0, 0, 0.8);height: 175px;padding-left: 0px;padding-right: 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
 
@@ -369,13 +432,26 @@
 
 //                FOR LOGIN POP-UP
                 document.getElementById('loginButton').addEventListener('click', function () {
-                    document.querySelector('.bg-modal').style.display = 'flex';
+                    document.querySelector('.modalSignin').style.display = 'flex';
                 });
 
                 document.querySelector('.close').addEventListener('click', function () {
-                    document.querySelector('.bg-modal').style.display = 'none';
+                    document.querySelector('.modalSignin').style.display = 'none';
                 });
-
+                
+                document.querySelector('.registerNewUser').addEventListener('click', function () {
+                    document.querySelector('.modalRegister').style.display = 'flex';
+                });
+                document.querySelector('.backRegister').addEventListener('click', function () {
+                    document.querySelector('.modalRegister').style.display = 'none';
+                });
+                document.querySelector('.alreadyHaveAccount').addEventListener('click', function () {
+                    document.querySelector('.modalRegister').style.display = 'none';
+                });
+                 document.querySelector('.closeRegister').addEventListener('click', function () {
+                    document.querySelector('.modalRegister').style.display = 'none';
+                    document.querySelector('.modalSignin').style.display = 'none';
+                });
                 function showPassword() {
                     var x = document.getElementById("passkey");
                     if (x.type === "password") {
