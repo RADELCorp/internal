@@ -8,7 +8,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style type="text/css">
-              body {
+            body {
                 font-family: 'Raleway', sans-serif;
                 background-color: whitesmoke;
             }
@@ -30,7 +30,7 @@
                 font-size:13px;
                 padding-top: 1%
             }
-               .rowAlign {
+            .rowAlign {
                 margin-top: 20px;
                 margin-left: 20px;
                 margin-right: 20px;
@@ -46,7 +46,7 @@
                 bottom: 0% ;
                 left: 0%;
                 background-color: whitesmoke;
-                background: rgba(238, 238, 238, 0.7);
+                background: rgba(238, 238, 238, 0.8);
                 width: 100%;
                 height: 18%;
                 font-size: 14px;
@@ -59,6 +59,37 @@
                 border: 2px solid white;
                 height: 250px;   //Darshan's code
             }
+            #custom-search-input{
+                padding: 3px;
+                border: solid 1px #E4E4E4;
+                border-radius: 6px;
+                background-color: #fff;
+            }
+
+            #custom-search-input input{
+                border: 0;
+                box-shadow: none;
+            }
+
+            #custom-search-input button{
+                margin: 2px 0 0 0;
+                background: none;
+                box-shadow: none;
+                border: 0;
+                color: #666666;
+                padding: 0 8px 0 10px;
+                border-left: solid 1px #ccc;
+            }
+
+            #custom-search-input button:hover{
+                border: 0;
+                box-shadow: none;
+                border-left: solid 1px #ccc;
+            }
+
+            #custom-search-input .glyphicon-search{
+                font-size: 23px;
+            }
         </style>
     </head>
     
@@ -67,10 +98,21 @@
             <center><h3>PROP KORNER</h3></center>
         </div>
         <div class="container">
-            <div class="row" style="text-align: center">
-                <input type="search" style="margin-top: 3%; height: 33px; width: 70%">
-                <button class="btn" value="Search" style="background-color: #212121; color: white">Search</button>
-                <h3><u>Our Projects in Bangalore</u></h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="margin-left: 24%; margin-top: 2%">
+                        <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="form-control input-lg" placeholder="Apartments, Place.." />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-info btn-lg" type="button">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-12" style="margin-top: 4%; text-align: center">
