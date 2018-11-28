@@ -8,6 +8,24 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style type="text/css">
+            .navigation-clean-button{  
+                background:#212121;
+                padding-top:6px;
+                padding-bottom:10px;
+                color:whitesmoke;
+                border-radius:0;
+                box-shadow:none;
+                border:0;
+                margin-bottom:0;
+            }
+
+            .navigation-clean-button .navbar-brand{
+                font-weight:bold;
+                color:inherit;
+            }
+            .navigation-clean-button .navbar-brand:hover{
+                color:#9E9E9E;
+            }
             body {
                 font-family: 'Raleway', sans-serif;
                 background-color: whitesmoke;
@@ -96,10 +114,34 @@
             }
         </style>
     </head>
-    
+
     <body>
-        <div class="nav" style="background-color: black; opacity: 0.9;"> 
-            <center><h3>PROP KORNER</h3></center>
+        <div>
+            <nav class="navbar navbar-default navigation-clean-button"style="height:60px">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" style="font-size: 24px" href="#">Prop Korner</a>
+                    </div>
+                    <div class="navbar-right">
+                        <div class="col-md-10" style="margin-top:4.5%">
+                            <div class="row">
+                                <div class="row col-md-4" style="margin-left:17%">
+                                    <h6>Bangalore</h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <span><a class="btn glyphicon glyphicon-chevron-down" href="#" style="color:whitesmoke"></a></span>                                  
+                                </div>
+                                <div class="col-md-1"style="margin-left:-30%; margin-top: -3%">
+                                    <a class="btn glyphicon glyphicon-earphone" href="#" style="color:whitesmoke; font-size: 20px;"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login col-md-2" style="margin-top:2%;margin-left: -13%">
+                            <a class="navbar-right btn glyphicon glyphicon-user" style="font-size: 20px; color: whitesmoke" role="button" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
         <div class="container">
             <div class="container">
