@@ -14,7 +14,7 @@
         <style>
             body {
                 font-family: 'Raleway', sans-serif;
-                background-color: whitesmoke;
+                background-color: white;
             }
             .social { color:#ffffff;
             }
@@ -162,9 +162,9 @@
             .footertext > .row {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
-            /*            .row + .rowAlign {
-                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                        }*/
+            nav {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
 
             /*STYLING THE LOGIN MODAL*/
             .modalSignin {
@@ -179,7 +179,7 @@
                 align-items: center;
                 display: none;
                 position: fixed;
-                
+
             }
             .modalRegister {
                 width: 100%;
@@ -193,7 +193,7 @@
                 align-items: center;
                 display: none;
                 position: fixed;
-                
+
             }
             .modal-content-signin {
                 width: 350px;
@@ -228,8 +228,8 @@
                 top: 18px;
                 left: 18px;
                 font-size: 20px;
-/*                background-color:red;*/
-/*                transform: rotate(45deg);*/
+                /*                background-color:red;*/
+                /*                transform: rotate(45deg);*/
                 cursor: pointer;
             }
             i {
@@ -241,15 +241,28 @@
                 transition-duration: 0.5s;
             }
         </style>
-        <div class="row rowAlign" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-            <div class="col-lg-12" style="background-color:black;height: 70px;">
-<!--                <center><h2>PropKorner Header</h2></center>-->
-                <div style="text-align:right">
-                    <!--<button class="btn" id="loginButton" style="border-radius:50%;height: 45px;">L</button>-->
-                    <i class="glyphicon glyphicon-user" id="loginButton" style="margin-top: 20px;margin-right: 20px;font-size:20px;"></i>
+        <div class="row rowAlign" style="margin-bottom:0px;padding-bottom: 0px;">
+            <nav class="navbar navbar-inverse" style="height:55px;">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="#">PropKorner</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                          <!--<li><<i class="glyphicon glyphicon-user" id="loginButton" style="margin-top: 20px;margin-right: 20px;font-size:20px;"></i></li>-->
+                            <li><a id="contactUs" style="cursor:pointer;"><span class="glyphicon glyphicon glyphicon-earphone"  id="contactUs"></span> Contact Us</a></li>
+                            <li><a id="loginButton" style="cursor:pointer;"><span class="glyphicon glyphicon-log-in"  id="loginButton"></span> Login</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
+
         <div class="modalSignin">
             <div class="modal-content-signin">
                 <div class="close" style="color:black" >+</div>
@@ -269,11 +282,11 @@
                 </form>
             </div>
         </div>
-        
+
         <div class="modalRegister">
             <div class="modal-content-register">
                 <div class="backRegister glyphicon glyphicon-menu-left" style="color:grey" ></div>
-                    <div class="closeRegister glyphicon glyphicon-remove-circle" style="color:grey" ></div>
+                <div class="closeRegister glyphicon glyphicon-remove-circle" style="color:grey" ></div>
                 <div class="modalhead" style="font-size: 19px;color: green;text-align:center;margin-top: 20px;;">Register!</div>
                 <hr style="margin-top:1%;background-color: lightcoral;height: 1.5px;border: none;" width="10%;">
                 <form action="">
@@ -283,18 +296,18 @@
                         <input type="email" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Email" size="32%"><br>
                         <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Password" size="32%">
                         <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 15px;height: 40px;margin-bottom: 20px;background: #f7f9fc" placeholder="Confirm Password" size="32%"><br>
-                        
+
                         <button class="btn" style="width:247px;background-color: #81C784;border: 1px solid grey;height: 40px;margin-bottom: 8px;"><a href="" >Register</a></button>
                         <div>
                             <a class="alreadyHaveAccount" href="#" style="color:red;margin-bottom: 15px;font-size: 13px;color: rosybrown">Already have an account? Sign in!</a><br>
-                            
+
                         </div>
                     </center>
                 </form>
             </div>
         </div>
-        
-        <div class="row rowAlign">
+
+        <div class="row rowAlign" style="margin-top:0px;">
             <div class="col-md-12" style="background: rgba(0, 0, 0, 0.8);height: 175px;padding-left: 0px;padding-right: 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
 
                 <div class="col-md-5" style="height: 100%;">
@@ -304,7 +317,7 @@
                             <a href="#" class="linktag"><u>For Sale </u></a>/
                             <a href="#" class="linktag"><u>For Rent</u></a>
                         </div>
-                        <input class="search" type="texbox" style="background: transparent; border: 1px solid #fff;font-size: 14px;padding-bottom: 10px;margin-right: -4px;height: 40px;color: white;" placeholder="Locality, Pincode, Name etc." size="42%">
+                        <input class="search" type="texbox" style="background: transparent; border: 1px solid #fff;font-size: 14px;padding-bottom: 9px;margin-right: -4px;height: 40px;color: white;" placeholder="Locality, Pincode, Name etc." size="42%">
                         <button class="btn buttonEffect" style=" border: 1px solid #fff;border-radius: 0px;height: 40px;">Search</button>
                         <div style="color:white;text-align: left;padding-left: 14%;">
                             <span id="typed" style="white-space:pre;font-size: 20px;color: white" class="typed">
@@ -438,7 +451,7 @@
                 document.querySelector('.close').addEventListener('click', function () {
                     document.querySelector('.modalSignin').style.display = 'none';
                 });
-                
+
                 document.querySelector('.registerNewUser').addEventListener('click', function () {
                     document.querySelector('.modalRegister').style.display = 'flex';
                 });
@@ -448,7 +461,7 @@
                 document.querySelector('.alreadyHaveAccount').addEventListener('click', function () {
                     document.querySelector('.modalRegister').style.display = 'none';
                 });
-                 document.querySelector('.closeRegister').addEventListener('click', function () {
+                document.querySelector('.closeRegister').addEventListener('click', function () {
                     document.querySelector('.modalRegister').style.display = 'none';
                     document.querySelector('.modalSignin').style.display = 'none';
                 });
