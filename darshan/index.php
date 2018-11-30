@@ -242,7 +242,7 @@
             }
         </style>
         <div class="row rowAlign" style="margin-bottom:0px;padding-bottom: 0px;">
-            <nav class="navbar navbar-inverse" style="height:55px;">
+            <nav class="navbar navbar-inverse" style="height:55px;border-radius: 0px;">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
