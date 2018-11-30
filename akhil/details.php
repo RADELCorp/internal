@@ -15,6 +15,24 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" type="text/javascript"></script>
         <meta charset="utf-8">
         <style type="text/css">
+            .navigation-clean-button{  
+                background:#212121;
+                padding-top:6px;
+                padding-bottom:10px;
+                color:whitesmoke;
+                border-radius:0;
+                box-shadow:none;
+                border:0;
+                margin-bottom:0;
+            }
+
+            .navigation-clean-button .navbar-brand{
+                font-weight:bold;
+                color:inherit;
+            }
+            .navigation-clean-button .navbar-brand:hover{
+                color:#9E9E9E;
+            }
             .img-fluid{
                 max-width: 100%;
                 height: 100%;
@@ -87,8 +105,33 @@
     </head>
 
     <body>
-        <div class="nav" style="background-color: black; opacity: 0.9;"> 
-            <center><h3>PROP KORNER</h3></center>
+       <div>
+            <nav class="navbar navbar-default navigation-clean-button"style="height:60px">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" style="font-size: 24px" href="#">Prop Korner</a>
+                    </div>
+                    <div class="navbar-right">
+                        <div class="col-md-10" style="margin-top:4.5%">
+                            <div class="row">
+                                <div class="row col-md-4" style="margin-left:17%">
+                                    <h6>Bangalore</h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <span><a class="btn glyphicon glyphicon-chevron-down" href="#" style="color:whitesmoke"></a></span>                                  
+                                </div>
+                                <div class="col-md-1"style="margin-left:-30%; margin-top: -3%">
+                                    <a class="btn glyphicon glyphicon-earphone" href="#" style="color:whitesmoke; font-size: 20px;"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login col-md-2" style="margin-top:2%;margin-left: -13%">
+                            <a class="navbar-right btn glyphicon glyphicon-user" style="font-size: 20px; color: whitesmoke" role="button" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
         </div>
         <div class="container">
             <!--            <div class="row">-->
@@ -98,15 +141,15 @@
                         <span class="glyphicon glyphicon-arrow-left"></span> </button>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-10">
                         <div class="row">
                             <h2 style=" font-weight: bold; "> Viemann Complex </h2>
                             <h6 style="font-weight: light";> Jayanagar 4th block, Bengaluru </h6>
                         </div>
                     </div>
-                    <div class="col-md-1" style="margin-top:30px"> 
+                    <div class="col-md-1" style="margin-top:30px; margin-right: -30%"> 
                         <button class="btn">
-                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
                         </button>
                     </div>
                 </div>
@@ -125,7 +168,7 @@
                 </div>
             </div>
             <br/> <br/>
-            <div class="col-md-12 box" style="text-align: left;background-color:#BDBDBD; margin-top: 2%">
+            <div class="col-md-12 box" style="text-align: left;background-color:#212121; margin-top: 2%; color: #EEEEEE">
                 <div class="vl"></div>
                 <div class="col-md-6" style="text-align: left; height:200px; ">
                     <h3 style="text-align: justify; font-weight: bold"><u>DESCRIPTION</u> </h3>
