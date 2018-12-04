@@ -114,6 +114,7 @@
                 background-size: cover;
                 border: 2px solid white;
                 height: 250px;
+                height: 100%;background-repeat: no-repeat;background-size: cover;
             }
             .fea {
                 /*                 border: 2px solid white;*/
@@ -240,6 +241,17 @@
                 color: green;
                 transition-duration: 0.5s;
             }
+            .loginPopup {
+                border-radius: 5px;
+                background: transparent;
+                border:0px;
+                border-bottom: 1px solid grey;
+                font-size: 14px;
+                padding-bottom: 10px;
+                height: 40px;
+                margin-bottom: 10px;
+                background: #f7f9fc;
+            }
         </style>
         <div class="row rowAlign" style="margin-bottom:0px;padding-bottom: 0px;">
             <nav class="navbar navbar-inverse" style="height:55px;border-radius: 0px;">
@@ -270,8 +282,8 @@
                 <hr style="margin-top:1%;background-color: lightcoral;height: 1.5px;border: none;" width="10%;">
                 <form action="">
                     <center>
-                        <input type="email" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Email id" size="32%"><br>
-                        <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 5px;background: #f7f9fc" placeholder="Password" size="32%"><br>
+                        <input type="email" class="loginPopup" placeholder="Email id" size="32%"><br>
+                        <input id="passkey" class="loginPopup" type="password" style="padding-bottom: 10px;margin-bottom: 5px;" placeholder="Password" size="32%"><br>
                         <div style="margin-bottom:15px;font-size: 13px;"><input type="checkbox" onclick="showPassword()">Show Password</div>
                         <button class="btn" style="width:247px;background-color: #81C784;border: 1px solid grey;height: 40px;margin-bottom: 10px;"><a href="" >Sign In</a></button>
                         <div>
@@ -291,11 +303,11 @@
                 <hr style="margin-top:1%;background-color: lightcoral;height: 1.5px;border: none;" width="10%;">
                 <form action="">
                     <center>
-                        <input type="text" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="First Name" size="32%">
-                        <input type="text" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Last Name" size="32%">
-                        <input type="email" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Email" size="32%"><br>
-                        <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 10px;height: 40px;margin-bottom: 10px;background: #f7f9fc" placeholder="Password" size="32%">
-                        <input id="passkey" type="password" style="border-radius: 5px;background: transparent;border:0px; border-bottom: 1px solid grey;font-size: 14px;padding-bottom: 15px;height: 40px;margin-bottom: 20px;background: #f7f9fc" placeholder="Confirm Password" size="32%"><br>
+                        <input type="text" class="loginPopup" placeholder="First Name" size="32%">
+                        <input type="text" class="loginPopup" placeholder="Last Name" size="32%">
+                        <input type="email" class="loginPopup" placeholder="Email" size="32%"><br>
+                        <input id="passkey" class="loginPopup" type="password" placeholder="Password" size="32%">
+                        <input id="passkey" class="loginPopup" type="password" style="padding-bottom: 15px;margin-bottom: 20px;" placeholder="Confirm Password" size="32%"><br>
 
                         <button class="btn" style="width:247px;background-color: #81C784;border: 1px solid grey;height: 40px;margin-bottom: 8px;"><a href="" >Register</a></button>
                         <div>
@@ -337,28 +349,28 @@
 
         <div class="row rowAlign" style="margin-top: 20px">
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/1.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/1.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea" >
-                <div class="featured" style="background-image:url(images/2.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/2.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/3.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/3.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/4.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/4.jpg);"></div>
             </div>
         </div>
 
         <div class="row rowAlign" style="margin-top: 0px">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 fea">
-                <div class="featured" style="background-image:url(images/5.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/5.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/6.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/6.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/2.jpg);height: 100%;background-repeat: no-repeat;background-size: cover;"></div>
+                <div class="featured" style="background-image:url(images/2.jpg);"></div>
             </div>
         </div>
 
