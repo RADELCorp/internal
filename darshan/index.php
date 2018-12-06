@@ -114,7 +114,7 @@
                 background-size: cover;
                 border: 2px solid white;
                 height: 250px;
-                height: 100%;background-repeat: no-repeat;background-size: cover;
+                height: 100%;
             }
             .fea {
                 /*                 border: 2px solid white;*/
@@ -129,6 +129,32 @@
                 transition-duration: 0.4 s;
                 cursor: pointer;
 
+            }
+            .ourListing {
+                transition: box-shadow .3s;
+                height: 300px;
+                padding-left: 1.5%;
+                padding-right: 1.5%;
+                padding-top: 1.5%;
+                padding-bottom: 1.5%;
+            }
+            .listings {
+                /*                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+                /*border: 1px solid black;*/
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid white;
+                height: 100%;
+                transition: box-shadow .3s;
+                transition: transform .3s;
+                
+            }
+            .listings:hover {
+                transform: scale(1.1); 
+                z-index: 2;
+                cursor: pointer;
+                border: 2px solid white;
+                box-shadow: 0 0 11px rgba(33,33,33,.2); 
             }
             .overlaytext {
                 position: absolute;
@@ -376,25 +402,21 @@
 
         <div style="padding-top:20px;">
             <center>
-                <h4 style="padding-top:50px; font-size: 27px">OUR LISTINGS</h4>
+                <h4 style="padding-top:80px; font-size: 27px">OUR LISTINGS</h4>
             </center>
         </div>
-        <div class="row rowAlign row-centered" style="margin-top: 40px;text-align: center">
-
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/apartments.jpg);">
-                <div class="overlaytext"><p style="font-size: 17px;color: white;margin-top: 4%;">Apartments</p></div>
+        <div class="row rowAlign" style="margin-top: 5px;margin-bottom: 40px">         
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing">
+                <div class="listings" style="background-image:url(images/buy.jpeg);"></div>
             </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/villa.jpg);">
-                <div class="overlaytext"><p style="margin-top: 4%;">Villas</p></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing" >
+                <div class="listings" style="background-image:url(images/rent.jpeg);"></div>
             </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/plot.jpg);">
-                <div class="overlaytext"><p style="margin-top: 4%;">Plots</p></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing">
+                <div class="listings" style="background-image:url(images/services.jpeg);"></div>
             </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 zoom col-centered" style="background-image:url(images/officespaces.jpg);">
-                <div class="overlaytext"><p style="margin-top: 4%;">Office  Spaces</p></div>
-            </div>
-            <div class="col-md-2 col-sm-8 col-xs-6 zoom col-centered" style="background-image:url(images/more.jpg);">
-                <div class="overlaytext" style="height: 100%;"><p style="font-size: 27px;color: white;margin-top: 50%">More<hr width="15%"></p></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing">
+                <div class="listings" style="background-image:url(images/projects.jpeg);"></div>
             </div>
 
         </div>
