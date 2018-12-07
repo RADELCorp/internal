@@ -126,9 +126,8 @@
             }
             .featured:hover {
                 opacity: 0.7;
-                transition-duration: 0.4 s;
+                transition-duration: 0.4s;
                 cursor: pointer;
-
             }
             .ourListing {
                 transition: box-shadow .3s;
@@ -463,7 +462,9 @@
                         <p class="footertitle" style="text-align: right;padding-top: 2%">RADEL CORP.</p>
                     </div>
                 </div>
-            </div>
+            </div>        
+        </div>
+
             <script>
 //                FOR AUTO TYPING ANIMATION
                 $("#typed").typed({
