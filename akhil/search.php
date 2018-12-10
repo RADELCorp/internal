@@ -79,6 +79,13 @@
                 width: 28%;
                 margin-right: 3%
             }
+            .filters:hover{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid white;
+                height: 250px;   //Darshan's code
+            }
             .feat:hover {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 background-repeat: no-repeat;
@@ -182,6 +189,9 @@
             </div>
         </div>
         </div>
+        <div class="col-md-2 filters" style="background-color: #EEEEEE;margin-left: 4%;margin-right: 4%;height:600px; text-align: center   ">
+            <h4><u>FILTERS</u></h4>
+        </div>
         <div class="row col-md-offset-3">
             <div class="col-md-2 feat" style="background-image: url(images/1.jpg);">
                 <div class="overlaytext"><p style="margin-top:4%">Lorem ipsum</p></div>
@@ -221,7 +231,21 @@
             </div>
         </div>
 
-
+        <nav aria-label="..." style="text-align:center">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <div class="footertext">
             <div class="row rowAlign">
