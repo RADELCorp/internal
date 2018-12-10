@@ -166,17 +166,6 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="col-md-3 dropdown" style="font-size: 17px;margin-left: 7%;margin-top: 3%; margin-bottom: 2.5%">
-                        Sort :
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Relevance
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Distance</a>
-                            <a class="dropdown-item" href="#">Price : Low to High</a>
-                            <a class="dropdown-item" href="#">Price : High to Low</a>
-                        </div>
-                    </div>-->
                     <div class="dropdown">
                         <div class="row col-md-1" style="margin-top:3%; margin-left: 5%">
                             <h5>Sort :</h5>
