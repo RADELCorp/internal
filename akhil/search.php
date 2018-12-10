@@ -4,11 +4,11 @@
         <title>Prop Korner : Search</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <style type="text/css"> 
-            .navigation-clean-button{  
+        <style type="text/css">
+            .navigation-clean-button{
                 background:#212121;
                 padding-top:6px;
                 padding-bottom:10px;
@@ -56,7 +56,7 @@
             .footertext > .row {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
-            .social { 
+            .social {
                 color:#ffffff;
             }
             .overlaytext {
@@ -69,7 +69,7 @@
                 width: 100%;
                 height: 18%;
                 font-size: 17px;
-                color: black;        //Darshan's code  
+                color: black;        //Darshan's code
             }
             .feat{
                 margin-bottom: 2%;
@@ -117,7 +117,7 @@
             #custom-search-input .glyphicon-search{
                 font-size: 23px;
             }
-            .placeholder-control::placeholder { 
+            .placeholder-control::placeholder {
                 color: grey;
                 font-size: 13px;
             }
@@ -137,7 +137,7 @@
                                     <h6>Bangalore</h6>
                                 </div>
                                 <div class="col-md-6">
-                                    <span><a class="btn glyphicon glyphicon-chevron-down" href="#" style="color:whitesmoke"></a></span>                                  
+                                    <span><a class="btn glyphicon glyphicon-chevron-down" href="#" style="color:whitesmoke"></a></span>
                                 </div>
                                 <div class="col-md-1"style="margin-left:-30%; margin-top: -3%">
                                     <a class="btn glyphicon glyphicon-earphone" href="#" style="color:whitesmoke; font-size: 20px;"></a>
@@ -154,7 +154,7 @@
         <div class="container">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6" style="margin-left: 18%; margin-top: 2%; margin-bottom: 2.5%">
+                    <div class="col-md-6" style="margin-left: 19%; margin-top: 2%; margin-bottom: 2.5%">
                         <div id="custom-search-input">
                             <div class="input-group col-md-12">
                                 <input type="text" class="form-control input-lg placeholder-control" placeholder="Apartments, Place.." />
@@ -166,7 +166,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 dropdown" style="font-size: 17px;margin-left: 7%;margin-top: 3%; margin-bottom: 2.5%">
+<!--                    <div class="col-md-3 dropdown" style="font-size: 17px;margin-left: 7%;margin-top: 3%; margin-bottom: 2.5%">
                         Sort :
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Relevance
@@ -176,6 +176,18 @@
                             <a class="dropdown-item" href="#">Price : Low to High</a>
                             <a class="dropdown-item" href="#">Price : High to Low</a>
                         </div>
+                    </div>-->
+                    <div class="dropdown">
+                        <div class="row col-md-1" style="margin-top:3%; margin-left: 5%">
+                            <h5>Sort :</h5>
+                        </div>
+                        <button class="btn btn-primary dropdown-toggle" style="margin-top:3%;margin-left: -2%" type="button" data-toggle="dropdown">Relevance
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu" style="margin-left:79%">
+                            <li><a href="#">Distance</a></li>
+                            <li><a href="#">Price: Low to High</a></li>
+                            <li><a href="#">Price: High to Low</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -219,9 +231,9 @@
                 <div class="overlaytext"><p style="margin-top: 4%">Lorem ipsum</p></div>
             </div>
         </div>
-        
-        
-        
+
+
+
         <div class="footertext">
             <div class="row rowAlign">
                 <div class="col-md-12 col-sm-12" style="background-color:black;height: 350px;">
