@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style type="text/css">
@@ -191,6 +193,26 @@
         </div>
         <div class="col-md-2 filters" style="background-color: #EEEEEE;margin-left: 4%;margin-right: 4%;height:600px; text-align: center   ">
             <h4><u>FILTERS</u></h4>
+            <h5 style="text-align:left; margin-top: 15%">
+                BHK
+            </h5>
+            <div class="checkbox-inline">
+                <div style="text-align:left">
+                    <label><input type="checkbox" value=""> 1</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" value=""> 2</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" value=""> 3</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" value=""> 4</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" value=""> 4+</label>
+                </div>
+            </div>
         </div>
         <div class="row col-md-offset-3">
             <div class="col-md-2 feat" style="background-image: url(images/1.jpg);">
