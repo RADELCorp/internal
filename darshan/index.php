@@ -374,28 +374,28 @@
 
         <div class="row rowAlign" style="margin-top: 20px">
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/1.jpg);"></div>
+                <div class="featured" style="background-image:url(images/11.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea" >
-                <div class="featured" style="background-image:url(images/2.jpg);"></div>
+                <div class="featured" style="background-image:url(images/12.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/3.jpg);"></div>
+                <div class="featured" style="background-image:url(images/13.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/4.jpg);"></div>
+                <div class="featured" style="background-image:url(images/14.jpg);"></div>
             </div>
         </div>
 
         <div class="row rowAlign" style="margin-top: 0px">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 fea">
-                <div class="featured" style="background-image:url(images/5.jpg);"></div>
+                <div class="featured" style="background-image:url(images/15.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/6.jpg);"></div>
+                <div class="featured" style="background-image:url(images/16.jpg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
-                <div class="featured" style="background-image:url(images/2.jpg);"></div>
+                <div class="featured" style="background-image:url(images/17.jpg);"></div>
             </div>
         </div>
 
