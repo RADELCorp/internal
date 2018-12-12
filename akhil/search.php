@@ -196,21 +196,21 @@
             <h5 style="text-align:left; margin-top: 15%">
                 BHK
             </h5>
-            <div class="checkbox-inline">
-                <div style="text-align:left">
-                    <label><input type="checkbox" value=""> 1</label>
-                </div>
+            <div class="row">
                 <div>
-                    <label><input type="checkbox" value=""> 2</label>
+                    <label><input type="checkbox" value=""> 1</label>
+<!--                </div>
+                <div>-->
+                    <label style="margin-left:20%;"><input type="checkbox" value=""> 2</label>
                 </div>
                 <div>
                     <label><input type="checkbox" value=""> 3</label>
-                </div>
-                <div>
-                    <label><input type="checkbox" value=""> 4</label>
-                </div>
-                <div>
-                    <label><input type="checkbox" value=""> 4+</label>
+<!--                </div>
+                <div>-->
+                    <label style="margin-left:12%;"><input type="checkbox" value=""> 4</label>
+<!--                </div>
+                <div>-->
+                    <label style="margin-left:12%;"><input type="checkbox" value=""> 4+</label>
                 </div>
             </div>
         </div>
