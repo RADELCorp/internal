@@ -110,11 +110,14 @@
         </div>
 
         <div class="container">
-            <h2 style="text-align:center; margin-bottom: 3%">Services</h2>
+            <h2 style="text-align:center; margin-bottom: 3%"><u>Services</u></h2>
             <div class="col-md-12 row">
-                <div class="col-md-4" style="background-image: url(images/paint.jpg); width:30%;height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
-                <div class="col-md-4" style="background-image: url(images/carpenter.png); height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
-                <div class="col-md-4" style="background-image: url(images/mover.jpg); height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
+                <div class="col-md-4" style="background-image: url(images/paint.jpg);margin-right: 4%; width:30%;height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
+                <div class="col-md-4" style="background-image: url(images/carpenter.jpg); margin-right: 6%;width:30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
+                <div class="col-md-4" style="background-image: url(images/movers.jpg);width: 30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
+                <div class="col-md-4" style="background-image: url(images/paint.jpg);margin-right: 4%; width:30%;height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
+                <div class="col-md-4" style="background-image: url(images/carpenter.jpg); margin-right: 6%;width:30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
+                <div class="col-md-4" style="background-image: url(images/movers.jpg);width: 30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
             </div>
         </div>
 
