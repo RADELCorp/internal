@@ -144,11 +144,9 @@
                 background-size: cover;
                 border: 2px solid white;
                 height: 100%;
-                width: 100%;
                 transition: box-shadow .3s;
                 transition: transform .3s;
                 background-position: center;
-                
             }
             .listings:hover {
                 transform: scale(1.1); 
@@ -374,7 +372,7 @@
             </div>
         </div>
 
-        <div class="row rowAlign" style="margin-top: 20px; margin: auto;">
+        <div class="row rowAlign" style="margin-top: 20px">
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 fea">
                 <div class="featured" style="background-image:url(images/11.jpg);"></div>
             </div>
@@ -408,16 +406,16 @@
         </div>
         <div class="row rowAlign" style="margin-top: 5px;margin-bottom: 40px">         
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing">
-                <div class="listings" style="background-image:url(images/buy.jpeg);margin: auto"></div>
+                <div class="listings" style="background-image:url(images/buy.jpeg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing" >
-                <div class="listings" style="background-image:url(images/rent.jpeg);margin: auto"></div>
+                <div class="listings" style="background-image:url(images/rent.jpeg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing">
-                <div class="listings" style="background-image:url(images/services.jpeg);margin: auto"></div>
+                <div class="listings" style="background-image:url(images/services.jpeg);"></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ourListing">
-                <div class="listings" style="background-image:url(images/projects.jpeg);margin: auto"></div>
+                <div class="listings" style="background-image:url(images/projects.jpeg);"></div>
             </div>
 
         </div>
