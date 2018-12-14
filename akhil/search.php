@@ -153,7 +153,27 @@
             .container:hover .overlay1 {
                 bottom: 55%;
             }
-
+            .o1{
+                display: inline-block;
+                padding-left: 8px; 
+                padding-top: 10px;
+            }
+            .o2{
+                display: inline-block;
+                margin-left: 85px;
+            }
+            .o3{
+               display: inline-block;
+               padding-top: 10px;
+               padding-left: 15px;
+               font-size: 12px;
+               width: 50%; 
+            }
+            .o4{
+               display: inline-block;
+               padding-left: 40px;
+               font-size: 15px; 
+            }
         </style>
     </head>
     <body>
@@ -237,10 +257,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 1,50,00,000</div>
-                        <div style="display: inline-block;margin-left: 80px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 1,50,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -253,10 +273,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 80px;">2 BHK, 2500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">2 BHK, 2500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -269,10 +289,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 85,00,000</div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 85,00,000</div>
                         <div style="display: inline-block;margin-left: 80px;">3 BHK, 3200sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -285,10 +305,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 2,50,00,000</div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 2,50,00,000</div>
                         <div style="display: inline-block;margin-left: 80px;">4 BHK, 5000sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -301,26 +321,26 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
             </div>
         </div>
        <div>
-            <div class="container feat col-md-2" style="background-image: url(images/1.jpg)">
+            <div class="container feat col-md-2" style="background-image: url(images/1.jpg)";>
                 <div class="overlay1">
                     <div style="font-size:16px;text-align: center;"><b>Lorem Ipsum</b></div>
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -333,10 +353,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -349,10 +369,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -365,10 +385,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -381,10 +401,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -397,10 +417,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
@@ -413,10 +433,10 @@
                 </div>
                 <div class="overlay0">
                     <div style="color:white;float: left;font-size: 14px;">
-                        <div style="display: inline-block;padding-left: 8px; padding-top: 10px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                        <div style="display: inline-block;margin-left: 85px;">3 BHK, 4500sqft.</div>
-                        <div style="display: inline-block;padding-top: 10px;padding-left: 15px;font-size: 12px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                        <div style="display: inline-block;padding-left: 40px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
+                        <div class="o1"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                        <div class="o2">3 BHK, 4500sqft.</div>
+                        <div class="o3">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
+                        <div class="o4"><a href="#" style="color: white;">view details...</a></div>
                     </div>
                 </div>
 
