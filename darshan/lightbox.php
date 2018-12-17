@@ -111,22 +111,22 @@
 
                 <div class="mySlides">
                     <div class="numbertext">1 / 4</div>
-                    <img src="images/11.jpg" style="width:100%;height: 450px;">
+                    <img src="images/11.jpg" style="width:100%;height: 450px;background-repeat: no-repeat; background-size: cover;background-position: center;">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">2 / 4</div>
-                    <img src="images/12.jpg" style="width:100%;height: 450px;">
+                    <img src="images/12.jpg" style="width:100%;height: 450px;background-repeat: no-repeat; background-size: cover;background-position: center;">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">3 / 4</div>
-                    <img src="images/13.jpg" style="width:100%;height: 450px;">
+                    <img src="images/13.jpg" style="width:100%;height: 450px;background-repeat: no-repeat; background-size: cover;background-position: center;">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">4 / 4</div>
-                    <img src="images/14.jpg" style="width:100%;height: 450px;">
+                    <img src="images/14.jpg" style="width:100%;height: 450px;background-repeat: no-repeat; background-size: cover;background-position: center;">
                 </div>
 
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
