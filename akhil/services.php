@@ -41,19 +41,7 @@
             .social {
                 color:#ffffff;
             }
-/*            .overlaytext {
-                position: absolute;
-                bottom: 0% ;
-                left: 0%;
-                text-align: center;
-                background-color: whitesmoke;
-                background: rgba(238, 238, 238, 0.8);
-                width: 100%;
-                height: 18%;
-                font-size: 17px;
-                color: black;        //Darshan's code
-            }
-*/            .navigation-clean-button{
+            .navigation-clean-button{
                 background:#212121;
                 padding-top:6px;
                 padding-bottom:10px;
@@ -71,13 +59,20 @@
             .navigation-clean-button .navbar-brand:hover{
                 color:#9E9E9E;
             }
-/*            .feat{
-                margin-bottom: 2%;
+            .box {
+                background-image: url(images/paint.jpg);
+                height:300px;
+                background-position: center;
                 background-repeat: no-repeat;
-                background-size: cover;
-                width: 28%;
-                margin-right: 3%
-            }*/
+                background-size: contain;
+            }
+            .box:hover {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 2px solid white;
+                height: 300px;   //Darshan's code
+            }
         </style>
     </head>
     <body>
@@ -109,15 +104,17 @@
             </nav>
         </div>
 
-        <div class="container">
-            <h2 style="text-align:center; margin-bottom: 3%"><u>Services</u></h2>
-            <div class="col-md-12 row">
-                <div class="col-md-4" style="background-image: url(images/paint.jpg);margin-right: 4%; width:30%;height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
-                <div class="col-md-4" style="background-image: url(images/carpenter.jpg); margin-right: 6%;width:30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
-                <div class="col-md-4" style="background-image: url(images/movers.jpg);width: 30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
-                <div class="col-md-4" style="background-image: url(images/paint.jpg);margin-right: 4%; width:30%;height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
-                <div class="col-md-4" style="background-image: url(images/carpenter.jpg); margin-right: 6%;width:30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
-                <div class="col-md-4" style="background-image: url(images/movers.jpg);width: 30%; height:350px; background-repeat: no-repeat; background-size: cover;"></div> 
+        <div class="col-xl-12 container">
+            <div class="tex" style="text-align:center;margin-bottom: 4%">
+                <h2><u>Services</u></h2>
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <a href="#"><div class="col-sm-6 col-md-4 box" style="background-image: url(images/paint.jpg);margin-bottom: 2%"></div> </a> 
+                <a href="#"><div class="col-sm-6 col-md-4 box" style="background-image: url(images/carpenter.jpg);margin-bottom: 2%"></div> </a>
+                <a href="#"><div class="col-sm-6 col-md-4 box" style="background-image: url(images/movers.jpg);margin-bottom: 2%"></div> </a> 
+<!--                <a href="#"><div class="col-sm-6 col-md-4 box" style="background-image: url(images/paint.jpg);margin-bottom: 2%"></div> </a> 
+                <a href="#"><div class="col-sm-6 col-md-4 box" style="background-image: url(images/carpenter.jpg);margin-bottom: 2%"></div> </a> 
+                <a href="#"><div class="col-sm-6 col-md-4 box" style="background-image: url(images/movers.jpg);margin-bottom:2%"></div> </a> -->
             </div>
         </div>
 
