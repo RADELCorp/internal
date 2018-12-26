@@ -152,7 +152,7 @@
                                     <img class="image" src="images/2.png" style="width: 20%;">
                                 </center>
                                 <div class="paragraph">
-                                    
+                                    Edit your profile picture, contact information, email ID, previous project info, about description etc.
                                 </div>
                             </div>
                         
@@ -161,12 +161,12 @@
                     <div class="col-lg-4 col-md-6 project-tile-container">
                       
                             <div class="project-tile project-tile-background">
-                                <h4 class="project-name">Create Project</h4>
+                                <h4 class="project-name">Support</h4>
                                 <center>
-                                    <img class="image" src="images/1.png" style="width: 20%;">
+                                    <img class="image" src="images/support.png" style="width: 20%;">
                                 </center>
                                 <div class="paragraph">
-                                    Create a new project file and then get your project going. Set the start date, project title, add tasks, and show the project summary task.
+                                    Need any help or have any query? Our support team is here to help you. 
                                 </div>
                             </div>
                       
@@ -174,12 +174,12 @@
                     <div class="col-lg-4 col-md-6 project-tile-container">
                        
                             <div class="project-tile project-tile-background">
-                                <h4 class="project-name">Settings</h4>
+                                <h4 class="project-name">Tracking</h4>
                                 <center>
-                                    <img class="image" src="images/settings.png" style="width: 20%;">
+                                    <img class="image" src="images/track.png" style="width: 20%;">
                                 </center>
                                 <div class="paragraph">
-                                    Create a new project file and then get your project going. Set the start date, project title, add tasks, and show the project summary task.
+                                    Track the whole procurement process for maximum transparency.
                                 </div>
                             </div>
                      
