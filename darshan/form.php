@@ -62,26 +62,26 @@
         <input type="checkbox" id="amn_party_hall_no" name="amn_party_hall" value="1">Party Hall<br>
         <h3>Additional Information</h3>
         <h4>*Facing</h4>
-        <label for="prop_north">North<input type="radio" id="prop_north" name="prop_facing"></label><br>
-        <label for="prop_south">South<input type="radio" id="prop_south" name="prop_facing"></label><br>
-        <label for="prop_east">East<input type="radio" id="prop_east" name="prop_facing"></label><br>
-        <label for="prop_west">West<input type="radio" id="prop_west" name="prop_facing"></label>
-        <label for="prop_northeast">North-East<input type="radio" id="prop_northeast" name="prop_facing"></label><br>
-        <label for="prop_northwest">North-West <input type="radio" id="prop_northwest" name="prop_facing"></label><br>
-        <label for="prop_southeast">South East<input type="radio" id="prop_southeast" name="prop_facing"></label><br>
-        <label for="prop_southwest">South West <input type="radio" id="prop_southwest" name="prop_facing"></label>
+        <label for="prop_north"><input type="radio" id="prop_north" name="prop_facing">North</label><br>
+        <label for="prop_south"><input type="radio" id="prop_south" name="prop_facing">South</label><br>
+        <label for="prop_east"><input type="radio" id="prop_east" name="prop_facing">East</label><br>
+        <label for="prop_west"><input type="radio" id="prop_west" name="prop_facing">West</label>
+        <label for="prop_northeast"><input type="radio" id="prop_northeast" name="prop_facing">North-East</label><br>
+        <label for="prop_northwest"><input type="radio" id="prop_northwest" name="prop_facing">North-West </label><br>
+        <label for="prop_southeast"><input type="radio" id="prop_southeast" name="prop_facing">South East</label><br>
+        <label for="prop_southwest"><input type="radio" id="prop_southwest" name="prop_facing">South West</label>
         <h4>*Preferred Tennats</h4>
-        <label for="family">Family<input type="checkbox" id="family"></label>
-        <label for="bachelor">Bachelor<input type="checkbox" id="bachelor"></label>
-        <label for="commercial">Commercial<input type="checkbox" id="commercial"></label>
+        <label for="family"><input type="checkbox" id="family">Family</label>
+        <label for="bachelor"><input type="checkbox" id="bachelor">Bachelor</label>
+        <label for="commercial"><input type="checkbox" id="commercial">Commercial</label>
         <h4>Property Feature</h4>
-        <label for="prop_unfurnished">Unfurnished<input type="radio" id="prop_unfurnished" name="prop_furnished"></label><br>
-        <label for="prop_semifurnished">Semi Furnished<input type="radio" id="prop_semifurnished" name="prop_furnished"></label><br> 
-        <label for="prop_fullyfurnished">Fully Furnished<input type="radio" id="prop_fullyfurnished" name="prop_furnished"></label><br>
+        <label for="prop_unfurnished"><input type="radio" id="prop_unfurnished" name="prop_furnished">Unfurnished</label><br>
+        <label for="prop_semifurnished"><input type="radio" id="prop_semifurnished" name="prop_furnished">Semi Furnished</label><br> 
+        <label for="prop_fullyfurnished"><input type="radio" id="prop_fullyfurnished" name="prop_furnished">Fully Furnished</label><br>
         <h4>Extras</h4>
-        <label for="store_room">Has store room.<input type="checkbox" id="store_room"></label>
-        <label for="prayer_room">Has prayer room <input type="checkbox" id="prayer_room"></label>
-        <label for="power_backup">Has power backup<input type="checkbox" id="power_backup"></label><br>
+        <label for="store_room"><input type="checkbox" id="store_room">Has store room.</label>
+        <label for="prayer_room"><input type="checkbox" id="prayer_room">Has prayer room </label>
+        <label for="power_backup"><input type="checkbox" id="power_backup">Has power backup</label><br>
         <label>Floor no.<input type="text" name="prop_floorno"></label><br>
         <label>Total Floors<input type="text" name="prop_totalfloor"></label><br>
         <h3><label class="addlisting-subtitles" for="file">Choose Images to Upload</label></h3><br>
