@@ -22,7 +22,7 @@
             <option value="penthouse">Penthouse</option>
         </select>
         <br>
-        <label><span class="prop_mandatory">* </span>BHK Type</label>
+        <label><span class="prop_mandatory">* </span>BHK Type</label><br>
         <select>
             <option disabled selected value> -- select an option -- </option>
             <option value="1rk">1RK</option>
@@ -30,6 +30,13 @@
             <option value="2bhk">2BHK</option>
             <option value="3bhk">3BHK</option>
             <option value="4+bhk">4+ BHK</option>
+        </select><br>
+        <label hidden>Built Up Area<input type="text" name="built_area" id="user_id"></label><br>
+        <label>Property Status</label><br>
+        <select>
+            <option disabled selected value> -- select an option -- </option>
+            <option value="1">Ready tomove</option>
+            <option value="1">Under Construction</option>
         </select><br>
         <label><span class="prop_mandatory">* </span>Built Up Area<input type="text" name="built_area"></label><br>
         <label><span class="prop_mandatory">* </span>No. of Bedroom<input type="text" name="total_bedroom"></label><br>
@@ -87,5 +94,6 @@
         <h3><label class="addlisting-subtitles" for="file">Choose Images to Upload</label></h3><br>
         <input type="file" id="file" name="file" multiple><br><br>
         <input type="submit" value="Submit">
+
     </body>
 </html>
