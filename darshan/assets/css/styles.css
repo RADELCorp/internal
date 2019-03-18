@@ -1,0 +1,26 @@
+.radel-text-input input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  margin-top: 10px;
+}
+
+.radel-text-input input:focus ~ label, .rdl-up {
+  top: -45px;
+  font-size: 13px;
+  transition-duration: 0.2s;
+  color: rgb(255,91,79);
+  /*font-weight: bold;*/
+}
+
+.col-md-3.col-lg-2 {
+  border: 1px solid grey;
+}
+
+.radel-text-input input ~ label {
+  position: relative;
+  top: -25px;
+  color: gray;
+}
+
