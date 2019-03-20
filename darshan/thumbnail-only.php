@@ -79,36 +79,6 @@
                 </div>
             </div>
         </div>
-<!--        <div class="container">
-            <img src="images/2.jpg" alt="Avatar" class="image">
-            <div class="overlay1">
-                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
-            </div>
-            <div class="overlay">
-                <div style="color:white;float: left;font-size: 18px;">
-                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                    <div style="display: inline-block;padding-left: 140px;">3BHK, 4500sqft.</div>
-                    <div style="display: inline-block;padding-top: 15px;padding-left: 15px;font-size: 14px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                    <div style="display: inline-block;padding-left: 70px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
-                </div>
-            </div>
-
-        </div>
-        <div class="container">
-            <img src="images/3.jpg" alt="Avatar" class="image">
-            <div class="overlay1">
-                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
-            </div>
-            <div class="overlay">
-                <div style="color:white;float: left;font-size: 18px;"> 
-                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                    <div style="display: inline-block;padding-left: 140px;">3BHK, 4500sqft.</div>
-                    <div style="display: inline-block;padding-top: 15px;padding-left: 15px;font-size: 14px;width: 50%;">608, 10th Main Rd, 4th T Block East, 4th Block, Jayanagar, Bengaluru, Karnataka 560011</div>
-                    <div style="display: inline-block;padding-left: 70px;font-size: 15px;"><a href="#" style="color: white;">view details...</a></div>
-                </div>
-            </div>
-
-        </div>-->
         </div>
     </body>
 </html>
