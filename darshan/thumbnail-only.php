@@ -6,22 +6,42 @@
             body {
                 font-family: 'Marvel', sans-serif;
             }
-            .container {
+            .listing-container {
+                margin: 3px;
                 position: relative;
                 height: 233px;
-                width: 350px;
+                width: 23%;
+                display:inline-block;
+                float: left;
                 border: 2px solid white;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 margin-bottom: 10px;
             }
 
-            .image {
-                display: block;
-                width: 100%;
-                height: auto;
+            @media(max-width:1150px){
+                .listing-container {
+                    width: 32%;
+                }
+            }
+            @media(max-width:900px){
+                .listing-container {
+                    width: 48%;
+                }
+            }
+            @media(max-width:567px){
+                .listing-container {
+                    width: 98%;
+                }
             }
 
-            .overlay {
+
+            .listing-image {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            .listing-overlay {
                 position: absolute;
                 bottom: 0;
                 left: 0;
@@ -33,10 +53,10 @@
                 transition: .3s;
             }
 
-            .container:hover .overlay {
+            .listing-container:hover .listing-overlay {
                 height: 50%;
             }
-            .overlay1 {
+            .listing-overlay1 {
                 position: absolute;
                 bottom: 23%;
                 left: 0;
@@ -46,116 +66,218 @@
                 width: 100%;
                 height: 10%;
                 transition: 0.3s;
+                font-size:16px;
+                text-align: center;
             }
 
-            .container:hover .overlay1 {
+            .listing-container:hover .listing-overlay1 {
                 bottom: 50%;
             }
-            .thumbnail-details{
-                display: inline-block;padding-left: 40px;
+            .c33{
+                text-align: center;
+                width: 31%;
+                display: inline-block;
             }
-            .onhover-submenu{
-                display: inline-block;padding-top: 15px;font-size: 14px;width: 23%;text-align: center;
+            .c25{
+                text-align: center;
+                width: 24%;
+                display: inline-block;
+            }
+            .c100{
+                text-align: center;
+                width:100%;
             }
         </style>
     </head>
     <body>
-
-        <div style="display:inline-block;float: left">
-        <div class="container">
-            <img src="images/11.jpg" alt="Avatar" class="image">
-            <div class="overlay1">
-                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+        <div class="listing-container">
+            <img src="images/11.jpg" alt="Avatar" class="listing-image">
+            <div class="listing-overlay1">
+                <div style=""><b>Some Random TextSome Random Text Some Random Text regarding this particular flat</b></div>
             </div>
-            <div class="overlay">
-                <div style="color:white;float: left;font-size: 18px;">
-                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                    <div class="thumbnail-details">Jayanagar</div>
-                    <div class="thumbnail-details">Contact Us</div>
-                    <div class="onhover-submenu">Area<br>1080Sqft</div>
-                    <div class="onhover-submenu">BHK<br>4</div>
-                    <div class="onhover-submenu">Bathrooms<br>3</div>
-                    <div class="onhover-submenu">Parking<br>YES</div>
+            <div class="listing-overlay">
+                <div style="width: 100%;color:white;">
+                    <div class="c100" style="padding: 10px;font-size: 20px;padding-bottom: 18px">
+                        <div class="c33">
+                            <span style="color:green">&#x20b9;</span> 33,00,000
+                        </div>
+                        <div class="c33">
+                            Jayanagar
+                        </div>
+                        <div class="c33">
+                            Contact
+                        </div>
+                    </div>                    
+                    <div class="c100">
+                        <div class="c25">Area<br>1080SqFt</div>
+                        <div class="c25">BHK<br>1080SqFt</div>
+                        <div class="c25">Bathrooms<br>3</div>
+                        <div class="c25">Parking<br>Yes</div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="listing-container">
+            <img src="images/11.jpg" alt="Avatar" class="listing-image">
+            <div class="listing-overlay1">
+                <div style=""><b>Some Random TextSome Random Text Some Random Text regarding this particular flat</b></div>
+            </div>
+            <div class="listing-overlay">
+                <div style="width: 100%;color:white;">
+                    <div class="c100" style="padding: 10px;font-size: 20px;padding-bottom: 18px">
+                        <div class="c33">
+                            <span style="color:green">&#x20b9;</span> 33,00,000
+                        </div>
+                        <div class="c33">
+                            Jayanagar
+                        </div>
+                        <div class="c33">
+                            Contact
+                        </div>
+                    </div>                    
+                    <div class="c100">
+                        <div class="c25">Area<br>1080SqFt</div>
+                        <div class="c25">BHK<br>1080SqFt</div>
+                        <div class="c25">Bathrooms<br>3</div>
+                        <div class="c25">Parking<br>Yes</div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        
-        <div style="display:inline-block;float: left">
-        <div class="container">
-            <img src="images/11.jpg" alt="Avatar" class="image">
-            <div class="overlay1">
-                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+        <div class="listing-container">
+            <img src="images/11.jpg" alt="Avatar" class="listing-image">
+            <div class="listing-overlay1">
+                <div style=""><b>Some Random TextSome Random Text Some Random Text regarding this particular flat</b></div>
             </div>
-            <div class="overlay">
-                <div style="color:white;float: left;font-size: 18px;">
-                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                    <div class="thumbnail-details">Jayanagar</div>
-                    <div class="thumbnail-details">Contact Us</div>
-                    <div class="onhover-submenu">Area<br>1080Sqft</div>
-                    <div class="onhover-submenu">BHK<br>4</div>
-                    <div class="onhover-submenu">Bathrooms<br>3</div>
-                    <div class="onhover-submenu">Parking<br>YES</div>
+            <div class="listing-overlay">
+                <div style="width: 100%;color:white;">
+                    <div class="c100" style="padding: 10px;font-size: 20px;padding-bottom: 18px">
+                        <div class="c33">
+                            <span style="color:green">&#x20b9;</span> 33,00,000
+                        </div>
+                        <div class="c33">
+                            Jayanagar
+                        </div>
+                        <div class="c33">
+                            Contact
+                        </div>
+                    </div>                    
+                    <div class="c100">
+                        <div class="c25">Area<br>1080SqFt</div>
+                        <div class="c25">BHK<br>1080SqFt</div>
+                        <div class="c25">Bathrooms<br>3</div>
+                        <div class="c25">Parking<br>Yes</div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        <div style="display:inline-block;float: left">
-        <div class="container">
-            <img src="images/11.jpg" alt="Avatar" class="image">
-            <div class="overlay1">
-                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+        <div class="listing-container">
+            <img src="images/11.jpg" alt="Avatar" class="listing-image">
+            <div class="listing-overlay1">
+                <div style=""><b>Some Random TextSome Random Text Some Random Text regarding this particular flat</b></div>
             </div>
-            <div class="overlay">
-                <div style="color:white;float: left;font-size: 18px;">
-                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                    <div class="thumbnail-details">Jayanagar</div>
-                    <div class="thumbnail-details">Contact Us</div>
-                    <div class="onhover-submenu">Area<br>1080Sqft</div>
-                    <div class="onhover-submenu">BHK<br>4</div>
-                    <div class="onhover-submenu">Bathrooms<br>3</div>
-                    <div class="onhover-submenu">Parking<br>YES</div>
+            <div class="listing-overlay">
+                <div style="width: 100%;color:white;">
+                    <div class="c100" style="padding: 10px;font-size: 20px;padding-bottom: 18px">
+                        <div class="c33">
+                            <span style="color:green">&#x20b9;</span> 33,00,000
+                        </div>
+                        <div class="c33">
+                            Jayanagar
+                        </div>
+                        <div class="c33">
+                            Contact
+                        </div>
+                    </div>                    
+                    <div class="c100">
+                        <div class="c25">Area<br>1080SqFt</div>
+                        <div class="c25">BHK<br>1080SqFt</div>
+                        <div class="c25">Bathrooms<br>3</div>
+                        <div class="c25">Parking<br>Yes</div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        <div style="display:inline-block;float: left">
-        <div class="container">
-            <img src="images/11.jpg" alt="Avatar" class="image">
-            <div class="overlay1">
-                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+        <div class="listing-container">
+            <img src="images/11.jpg" alt="Avatar" class="listing-image">
+            <div class="listing-overlay1">
+                <div style=""><b>Some Random TextSome Random Text Some Random Text regarding this particular flat</b></div>
             </div>
-            <div class="overlay">
-                <div style="color:white;float: left;font-size: 18px;">
-                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                    <div class="thumbnail-details">Jayanagar</div>
-                    <div class="thumbnail-details">Contact Us</div>
-                    <div class="onhover-submenu">Area<br>1080Sqft</div>
-                    <div class="onhover-submenu">BHK<br>4</div>
-                    <div class="onhover-submenu">Bathrooms<br>3</div>
-                    <div class="onhover-submenu">Parking<br>YES</div>
+            <div class="listing-overlay">
+                <div style="width: 100%;color:white;">
+                    <div class="c100" style="padding: 10px;font-size: 20px;padding-bottom: 18px">
+                        <div class="c33">
+                            <span style="color:green">&#x20b9;</span> 33,00,000
+                        </div>
+                        <div class="c33">
+                            Jayanagar
+                        </div>
+                        <div class="c33">
+                            Contact
+                        </div>
+                    </div>                    
+                    <div class="c100">
+                        <div class="c25">Area<br>1080SqFt</div>
+                        <div class="c25">BHK<br>1080SqFt</div>
+                        <div class="c25">Bathrooms<br>3</div>
+                        <div class="c25">Parking<br>Yes</div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        <div style="display:inline-block;float: left">
-        <div class="container">
-            <img src="images/11.jpg" alt="Avatar" class="image">
-            <div class="overlay1">
-                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+        <div class="listing-container">
+            <img src="images/11.jpg" alt="Avatar" class="listing-image">
+            <div class="listing-overlay1">
+                <div style=""><b>Some Random TextSome Random Text Some Random Text regarding this particular flat</b></div>
             </div>
-            <div class="overlay">
-                <div style="color:white;float: left;font-size: 18px;">
-                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
-                    <div class="thumbnail-details">Jayanagar</div>
-                    <div class="thumbnail-details">Contact Us</div>
-                    <div class="onhover-submenu">Area<br>1080Sqft</div>
-                    <div class="onhover-submenu">BHK<br>4</div>
-                    <div class="onhover-submenu">Bathrooms<br>3</div>
-                    <div class="onhover-submenu">Parking<br>YES</div>
+            <div class="listing-overlay">
+                <div style="width: 100%;color:white;">
+                    <div class="c100" style="padding: 10px;font-size: 20px;padding-bottom: 18px">
+                        <div class="c33">
+                            <span style="color:green">&#x20b9;</span> 33,00,000
+                        </div>
+                        <div class="c33">
+                            Jayanagar
+                        </div>
+                        <div class="c33">
+                            Contact
+                        </div>
+                    </div>                    
+                    <div class="c100">
+                        <div class="c25">Area<br>1080SqFt</div>
+                        <div class="c25">BHK<br>1080SqFt</div>
+                        <div class="c25">Bathrooms<br>3</div>
+                        <div class="c25">Parking<br>Yes</div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="listing-container">
+            <img src="images/11.jpg" alt="Avatar" class="listing-image">
+            <div class="listing-overlay1">
+                <div style=""><b>Some Random TextSome Random Text Some Random Text regarding this particular flat</b></div>
+            </div>
+            <div class="listing-overlay">
+                <div style="width: 100%;color:white;">
+                    <div class="c100" style="padding: 10px;font-size: 20px;padding-bottom: 18px">
+                        <div class="c33">
+                            <span style="color:green">&#x20b9;</span> 33,00,000
+                        </div>
+                        <div class="c33">
+                            Jayanagar
+                        </div>
+                        <div class="c33">
+                            Contact
+                        </div>
+                    </div>                    
+                    <div class="c100">
+                        <div class="c25">Area<br>1080SqFt</div>
+                        <div class="c25">BHK<br>1080SqFt</div>
+                        <div class="c25">Bathrooms<br>3</div>
+                        <div class="c25">Parking<br>Yes</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
