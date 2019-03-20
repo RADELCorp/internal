@@ -80,5 +80,82 @@
             </div>
         </div>
         </div>
+        
+        <div style="display:inline-block;float: left">
+        <div class="container">
+            <img src="images/11.jpg" alt="Avatar" class="image">
+            <div class="overlay1">
+                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+            </div>
+            <div class="overlay">
+                <div style="color:white;float: left;font-size: 18px;">
+                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                    <div class="thumbnail-details">Jayanagar</div>
+                    <div class="thumbnail-details">Contact Us</div>
+                    <div class="onhover-submenu">Area<br>1080Sqft</div>
+                    <div class="onhover-submenu">BHK<br>4</div>
+                    <div class="onhover-submenu">Bathrooms<br>3</div>
+                    <div class="onhover-submenu">Parking<br>YES</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div style="display:inline-block;float: left">
+        <div class="container">
+            <img src="images/11.jpg" alt="Avatar" class="image">
+            <div class="overlay1">
+                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+            </div>
+            <div class="overlay">
+                <div style="color:white;float: left;font-size: 18px;">
+                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                    <div class="thumbnail-details">Jayanagar</div>
+                    <div class="thumbnail-details">Contact Us</div>
+                    <div class="onhover-submenu">Area<br>1080Sqft</div>
+                    <div class="onhover-submenu">BHK<br>4</div>
+                    <div class="onhover-submenu">Bathrooms<br>3</div>
+                    <div class="onhover-submenu">Parking<br>YES</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div style="display:inline-block;float: left">
+        <div class="container">
+            <img src="images/11.jpg" alt="Avatar" class="image">
+            <div class="overlay1">
+                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+            </div>
+            <div class="overlay">
+                <div style="color:white;float: left;font-size: 18px;">
+                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                    <div class="thumbnail-details">Jayanagar</div>
+                    <div class="thumbnail-details">Contact Us</div>
+                    <div class="onhover-submenu">Area<br>1080Sqft</div>
+                    <div class="onhover-submenu">BHK<br>4</div>
+                    <div class="onhover-submenu">Bathrooms<br>3</div>
+                    <div class="onhover-submenu">Parking<br>YES</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div style="display:inline-block;float: left">
+        <div class="container">
+            <img src="images/11.jpg" alt="Avatar" class="image">
+            <div class="overlay1">
+                <div style="font-size:16px;text-align: center;"><b>Some Random Text regarding this particular flat</b></div>
+            </div>
+            <div class="overlay">
+                <div style="color:white;float: left;font-size: 18px;">
+                    <div style="display: inline-block;padding-left: 15px;padding-top: 15px;"><span style="color:green">&#x20b9;</span> 33,00,000</div>
+                    <div class="thumbnail-details">Jayanagar</div>
+                    <div class="thumbnail-details">Contact Us</div>
+                    <div class="onhover-submenu">Area<br>1080Sqft</div>
+                    <div class="onhover-submenu">BHK<br>4</div>
+                    <div class="onhover-submenu">Bathrooms<br>3</div>
+                    <div class="onhover-submenu">Parking<br>YES</div>
+                </div>
+            </div>
+        </div>
+        </div>
     </body>
 </html>
